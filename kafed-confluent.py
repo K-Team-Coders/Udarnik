@@ -6,7 +6,7 @@ def error_callback(err):
 params = {
     'bootstrap.servers': 'rc1a-b5e65f36lm3an1d5.mdb.yandexcloud.net:9091',
     'security.protocol': 'SASL_SSL',
-    'ssl.ca.location': r'D:\Udarnik\CA.txt',
+    'ssl.ca.location': './CA.txt',
     'sasl.mechanism': 'SCRAM-SHA-512',
     'sasl.username': '9433_reader',
     'sasl.password': 'eUIpgWu0PWTJaTrjhjQD3.hoyhntiK',
@@ -19,8 +19,10 @@ params = {
 
 c = Consumer(params)
 c.subscribe(['zsmk-9433-dev-01'])
-while True:
-    msg = c.poll(timeout=3.0)
-    if msg:
-        val = msg.value().decode()
-        print(val)
+with open('data.txt', 'w') as f:
+    while True:
+        msg = c.poll(timeout=3.0)
+        if msg:
+            val = msg.value().decode()
+            f.write(val)
+            f.write('\n\n')
