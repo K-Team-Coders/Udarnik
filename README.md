@@ -1,0 +1,2 @@
+# Udarnik
+Nashe delo pravoe!
