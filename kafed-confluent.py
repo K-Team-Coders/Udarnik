@@ -47,10 +47,19 @@ cursor = connection.cursor()
 while True:
     msg = c.poll(timeout=3.0)
     if msg:
-        # cursor.execute()
         message = msg.value().decode()
         try:
             message = json.loads(message.replace('\\', ''))
-            logger.debug(message['moment'])
+            moment = message['moment']
+            moment.replace('T', ' ')
+
+            keys = list(message.keys())
+            for key in keys[1:]:
+                try:
+                    cursor.execute(f""" INSERT INTO "Kafka" VALUES ('{key}', '{message[key]}', '{moment}') """)
+                    connection.commit()
+                except Exception as e:
+                    logger.error(f"""'{key}', '{message[key]}', '{moment}'""")
+
         except Exception as e:
             logger.debug(e)
