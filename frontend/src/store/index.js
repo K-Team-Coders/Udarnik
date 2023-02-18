@@ -45,7 +45,6 @@ export default createStore({
     GET_ALLDATA: async (context, payload) => {
       let {data} = await axios.get('http://192.168.0.156:8079/lastMnemonicEX1/');
       context.commit('SET_ALLDATA', data)
-      console.log(data)
     },
     
   },
