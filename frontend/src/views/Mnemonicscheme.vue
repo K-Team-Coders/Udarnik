@@ -597,7 +597,7 @@
                             </g>
                         </g>
                         <g id="PS1">
-                            <path id="PS1_x5F_contour" fill="#FFE4C9" stroke="#AA1700" stroke-width="4" d="M1412.53,328.042h30.679
+                            <path id="PS1_x5F_contour" :style="{ 'fill': allData.colors[42], 'stroke': allData.colors[43] }" stroke-width="4" d="M1412.53,328.042h30.679
     				c0.895,0,1.62,0.725,1.62,1.62v59.68c0,0.895-0.725,1.62-1.62,1.62h-30.679c-0.895,0-1.62-0.725-1.62-1.62v-59.68
     				C1410.91,328.767,1411.635,328.042,1412.53,328.042z" />
                             <text transform="matrix(0.9999 0.0126 -0.0126 0.9999 1424.356 366.5284)"
