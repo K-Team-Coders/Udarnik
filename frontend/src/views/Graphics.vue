@@ -1,12 +1,20 @@
 <template>
   <body>
-      <Headernd></Headernd>
-      <div class="flex justify-start mt-6 mx-2">
-        <Links></Links>
+    <Headernd></Headernd>
+    <div class="flex justify-start mt-6 mx-2">
+      <Links></Links>
+    </div>
+    <div>
+      <div class="flex mt-4">
+        <div class="ml-80">
+          <Line
+            :width="1500"
+            :height="800"
+            :chart-data="$data.chartData"
+          ></Line>
+        </div>
       </div>
-      <div class="flex ml-96 mt-4">
-         <Line :width="1500" :height="800" :chart-data=$data.chartData></Line>
-      </div>
+    </div>
   </body>
 </template>
 
@@ -15,9 +23,10 @@ import Line from '../components/charts/LineChartApex.vue'
 import axios from 'axios'
 import Headernd from '../components/Headernd.vue'
 import Links from '../components/Links.vue'
+import DropDownMenu from '../components/DropDownMenu.vue'
 export default {
-  components: { Line,Headernd,Links },
-  data() {
+  components: { Line, Headernd, Links, DropDownMenu },
+  data () {
     return {
       chartData: {
         labels: [],
