@@ -46,10 +46,10 @@ export default {
       axios.get('http://192.168.0.156:8079/lastGraphEX1/').then(response => { 
         console.log(response.data)
         this.$data.chartData.labels = response.data.times
-        this.$data.chartData.datasets[0].data = response.data.values
-        this.$data.chartData.datasets[0].label = response.data.name
+        this.$data.chartData.datasets = response.data.datasets
+        
 
-      }) }, 60000)
+      }) }, 30000)
 }}
 </script>
 
