@@ -14,7 +14,7 @@
                 href="#"
                 class="block py-2 pr-4 pl-3 text-xl text-gray-50 hover:text-blue-300"
                 aria-current="page"
-                >Прогнозная аналитика эксгаустеров / Эксгаустер №6</a
+                >Прогнозная аналитика эксгаустеров / Эксгаустер №1</a
               >
             </li>
           </ul>
