@@ -277,24 +277,24 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature8_x5F_value" transform="matrix(1 0 0 1 349.0228 535.332)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[80] }}</text>
                                 <text transform="matrix(1 0 0 1 283.531 558.5074)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">В, мм/с</text>
 
                                 <text id="v8_x5F_value" transform="matrix(1 0 0 1 359.139 560.509)" fill="#FFFFFF"
-                                    font-family="'Montserrat-Bold'" font-size="13px">8</text>
+                                    font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[95] }}</text>
                                 <path id="g8_x5F_contour" fill="#414F4F" d="M281.999,568.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,570.559,279.79,568.768,281.999,568.768z" />
                                 <text transform="matrix(1 0 0 1 283.5311 583.1045)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
 
                                 <text id="g8_x5F_value" transform="matrix(1 0 0 1 359.5941 583.2594)" fill="#FFFFFF"
-                                    font-family="'Montserrat-Bold'" font-size="13px">0</text>
+                                    font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[90] }}</text>
                                 <text transform="matrix(1 0 0 1 283.5309 604.4813)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">О, мм/с</text>
 
                                 <text id="o8_x5F_value" transform="matrix(1 0 0 1 355.6976 606.7955)" fill="#FFFFFF"
-                                    font-family="'Montserrat-Bold'" font-size="13px">00</text>
+                                    font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[85] }}</text>
                             </g>
                             <path id="PS8_x5F_Contour" fill="#FEF1DB" fill-opacity="0.45" stroke="#F69112" stroke-width="3"
                                 d="M430.193,446.34h30.679
@@ -326,24 +326,24 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature7_x5F_value" transform="matrix(1 0 0 1 800.4725 624.1405)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[60] }}</text>
                                 <text transform="matrix(1 0 0 1 734.9807 647.316)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">В, мм/с</text>
 
                                 <text id="v7_x5F_value" transform="matrix(1 0 0 1 810.5886 649.3175)" fill="#FFFFFF"
-                                    font-family="'Montserrat-Bold'" font-size="13px">8</text>
+                                    font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[75] }}</text>
                                 <path id="g7_x5F_contour" fill="#414F4F" d="M733.449,657.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C729.449,659.368,731.24,657.577,733.449,657.577z" />
                                 <text transform="matrix(1 0 0 1 734.9808 671.9131)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
 
                                 <text id="g7_x5F_value" transform="matrix(1 0 0 1 811.0437 672.068)" fill="#FFFFFF"
-                                    font-family="'Montserrat-Bold'" font-size="13px">0</text>
+                                    font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[70] }}</text>
                                 <text transform="matrix(1 0 0 1 734.9805 693.2899)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">О, мм/с</text>
 
                                 <text id="o7_x5F_value" transform="matrix(1 0 0 1 807.1472 695.604)" fill="#FFFFFF"
-                                    font-family="'Montserrat-Bold'" font-size="13px">00</text>
+                                    font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[65] }}</text>
                             </g>
                         </g>
                         <g id="PS9">
@@ -359,7 +359,7 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature9_x5F_value" transform="matrix(1 0 0 1 349.0228 449.1135)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[100] }}</text>
                             </g>
                             <path id="PS9contour" fill="#E7E7E7" fill-opacity="0.45" stroke="#677272" stroke-width="3" d="M430.193,412.577h30.679
     				c0.895,0,1.62,0.347,1.62,0.775v28.543c0,0.428-0.725,0.775-1.62,0.775h-30.679c-0.895,0-1.62-0.347-1.62-0.775v-28.543
@@ -655,7 +655,7 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature4_x5F_value" transform="matrix(1 0 0 1 813.2119 293.1628)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[45] }}</text>
                             </g>
                         </g>
                         <g id="PS3">
@@ -676,7 +676,7 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature3_x5F_value" transform="matrix(1 0 0 1 960.1511 292.4405)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[40] }}</text>
                             </g>
                         </g>
                         <g id="PS5">
@@ -697,7 +697,7 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature5_x5F_value" transform="matrix(1 0 0 1 959.3481 554.4404)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[40]}}</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[50] }}</text>
                             </g>
                         </g>
                         <g id="PS6">
@@ -718,7 +718,7 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature6_x5F_value" transform="matrix(1 0 0 1 818.7463 554.7434)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[0]}}</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[55]}}</text>
                             </g>
                         </g>
                     </g>
@@ -738,7 +738,7 @@ import Links from '../components/Links.vue'
 export default {
     computed: mapGetters(['allData']),
     methods: mapActions(['GET_ALLDATA']),
-
+    components:{Headernd,Links},
     async created() {
         setInterval(() => { JSON.parse(JSON.stringify(this.GET_ALLDATA()))}, 1000);
     }
