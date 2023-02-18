@@ -265,13 +265,13 @@
                                 <path fill="#414F4F" d="M277.999,484.768h100c5.523,0,10,4.477,10,10v116c0,5.523-4.477,10-10,10h-100c-5.523,0-10-4.477-10-10
     					v-116C267.999,489.246,272.477,484.768,277.999,484.768z" />
                                 <rect x="278.499" y="495.268" fill="none" stroke="#8D9595" width="99" height="20" />
-                                <path id="v8_x5F_contour" fill="#EB5835" d="M281.999,545.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="v8_x5F_contour" :style="{ 'fill': allData.colors[39]}" d="M281.999,545.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,547.559,279.79,545.768,281.999,545.768z" />
-                                <path id="o8_x5F_contour" fill="#EB5835" d="M281.999,591.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="o8_x5F_contour" :style="{ 'fill': allData.colors[35]}" d="M281.999,591.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,593.559,279.79,591.768,281.999,591.768z" />
                                 <text transform="matrix(1 0 0 1 315.1394 509.6255)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">8 ПС</text>
-                                <path id="temperature8_x5F_contour" :style="{ 'fill': allData.colors[35]}" d="M281.999,521.276h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="temperature8_x5F_contour" :style="{ 'fill': allData.colors[33]}" d="M281.999,521.276h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,523.067,279.79,521.276,281.999,521.276z" />
                                 <text transform="matrix(1 0 0 1 283.4792 535.177)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -281,14 +281,14 @@
                                 <text transform="matrix(1 0 0 1 283.531 558.5074)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">В, мм/с</text>
 
-                                <text id="v8_x5F_value" transform="matrix(1 0 0 1 359.139 560.509)" fill="#FFFFFF"
+                                <text id="v8_x5F_value" transform="matrix(1 0 0 1 349.0228 560.509)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[95] }}</text>
-                                <path id="g8_x5F_contour" fill="#414F4F" d="M281.999,568.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="g8_x5F_contour" :style="{ 'fill': allData.colors[37]}" d="M281.999,568.768h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,570.559,279.79,568.768,281.999,568.768z" />
                                 <text transform="matrix(1 0 0 1 283.5311 583.1045)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
 
-                                <text id="g8_x5F_value" transform="matrix(1 0 0 1 359.5941 583.2594)" fill="#FFFFFF"
+                                <text id="g8_x5F_value" transform="matrix(1 0 0 1 349.0228 583.2594)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[90] }}</text>
                                 <text transform="matrix(1 0 0 1 283.5309 604.4813)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">О, мм/с</text>
@@ -296,7 +296,7 @@
                                 <text id="o8_x5F_value" transform="matrix(1 0 0 1 355.6976 606.7955)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[85] }}</text>
                             </g>
-                            <path id="PS8_x5F_Contour" fill="#FEF1DB" fill-opacity="0.45" stroke="#F69112" stroke-width="3"
+                            <path id="PS8_x5F_Contour" :style="{ 'fill': allData.colors[56], 'stroke': allData.colors[57] }" fill-opacity="0.45"  stroke-width="3"
                                 d="M430.193,446.34h30.679
     				c0.895,0,1.62,0.331,1.62,0.738v27.2c1.571,1.25-35.243,1.253-33.92,0.001c0-0.001,0-27.201,0-27.201
     				C428.573,446.671,429.299,446.34,430.193,446.34z" />
@@ -304,7 +304,7 @@
                                 font-family="'MyriadPro-Regular'" font-size="21px">8</text>
                         </g>
                         <g id="PS7">
-                            <path id="PS7_x5F_contour" :style="{ 'fill': allData.colors[52], 'stroke': allData.colors[53] }" fill-opacity="0.45" stroke="#F69112" stroke-width="4"
+                            <path id="PS7_x5F_contour" :style="{ 'fill': allData.colors[54], 'stroke': allData.colors[55] }" fill-opacity="0.45" stroke="#F69112" stroke-width="4"
                                 d="M618.805,399.115h30.679
     				c0.895,0,1.62,0.725,1.62,1.62v59.68c0,0.895-0.725,1.62-1.62,1.62h-30.679c-0.895,0-1.62-0.725-1.62-1.62v-59.68
     				C617.185,399.84,617.911,399.115,618.805,399.115z" />
@@ -330,19 +330,19 @@
                                 <text transform="matrix(1 0 0 1 734.9807 647.316)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">В, мм/с</text>
 
-                                <text id="v7_x5F_value" transform="matrix(1 0 0 1 810.5886 649.3175)" fill="#FFFFFF"
+                                <text id="v7_x5F_value" transform="matrix(1 0 0 1 800.4725 649.3175)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[75] }}</text>
                                 <path id="g7_x5F_contour" :style="{ 'fill': allData.colors[29]}" d="M733.449,657.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C729.449,659.368,731.24,657.577,733.449,657.577z" />
                                 <text transform="matrix(1 0 0 1 734.9808 671.9131)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
 
-                                <text id="g7_x5F_value" transform="matrix(1 0 0 1 811.0437 672.068)" fill="#FFFFFF"
+                                <text id="g7_x5F_value" transform="matrix(1 0 0 1 800.4725 672.068)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[70] }}</text>
                                 <text transform="matrix(1 0 0 1 734.9805 693.2899)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">О, мм/с</text>
 
-                                <text id="o7_x5F_value" transform="matrix(1 0 0 1 807.1472 695.604)" fill="#FFFFFF"
+                                <text id="o7_x5F_value" transform="matrix(1 0 0 1 800.4725 695.604)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[65] }}</text>
                             </g>
                         </g>
@@ -361,7 +361,7 @@
                                 <text id="temperature9_x5F_value" transform="matrix(1 0 0 1 349.0228 449.1135)"
                                     fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[100] }}</text>
                             </g>
-                            <path id="PS9contour" fill="#E7E7E7" fill-opacity="0.45" stroke="#677272" stroke-width="3" d="M430.193,412.577h30.679
+                            <path id="PS9contour" :style="{ 'fill': allData.colors[58], 'stroke': allData.colors[59] }" fill-opacity="0.45"  stroke-width="3" d="M430.193,412.577h30.679
     				c0.895,0,1.62,0.347,1.62,0.775v28.543c0,0.428-0.725,0.775-1.62,0.775h-30.679c-0.895,0-1.62-0.347-1.62-0.775v-28.543
     				C428.573,412.924,429.299,412.577,430.193,412.577z" />
                             <text transform="matrix(0.9076 0.0114 -0.0126 0.9999 440.5241 434.5349)"
@@ -399,7 +399,7 @@
                         <text transform="matrix(1 0 0 1 984.826 73.8738)" font-family="'Montserrat-Bold'"
                             font-size="12px">Маслобак</text>
                         <g id="oil_x5F_level">
-                            <rect id="oil_x5F_level_x5F_loader" x="920.826" y="124.074" fill="#1FB826" :style="{ 'width': allData.values[118]* 188.004/100}"
+                            <rect id="oil_x5F_level_x5F_loader" x="920.826" y="124.074" fill="#1FB826" :style="{ 'width': allData.values[118]*188.004/100}"
                                 height="31" />
                             <text transform="matrix(1 0 0 1 926.2675 152.2527)" font-family="'Montserrat-Medium'"
                                 font-size="12px">УРОВЕНЬ МАСЛА, %</text>
@@ -442,7 +442,7 @@
                         <text transform="matrix(1 0 0 1 1269.0454 106.9659)" font-family="'Montserrat-Bold'"
                             font-size="12px">Охладитель</text>
                         <g id="oil_x5F_presure">
-                            <rect id="oil_x5F_presure_x5F_loader" x="1388.33" y="230.375" fill="#FDC65F" :style="{ 'width': allData.values[119]* 100/6}"
+                            <rect id="oil_x5F_presure_x5F_loader" x="1388.33" y="230.375" fill="#FDC65F" :style="{ 'width': allData.values[119]* 215/6}"
                                 height="33" />
                             <text transform="matrix(1 0 0 1 1392.134 261.498)" font-family="'Montserrat-Medium'"
                                 font-size="12px">ДАВЛЕНИЕ МАСЛА, кг/см</text>
