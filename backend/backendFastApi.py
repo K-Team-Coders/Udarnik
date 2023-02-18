@@ -169,9 +169,8 @@ def get_item():
     cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
     data=cur.fetchall()
 
-
-    randomint = random.randrange(1,4)
-    last_time = data[len(data)-randomint]
+    randint = random.randrange(3, 50)
+    last_time = data[len(data)-randint]
     cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".date = '{last_time[0]}' """)
     data=cur.fetchall()
 
@@ -186,39 +185,182 @@ def get_item():
                     values.append(subdata[2])
                 filled = True
         if not filled:
-            values.append(0.0)
+            values.append('NaN')
 
     # Цвета для алармов и ворнигов
     colors = []
 
     # Подшипники 9
-    for index in range(9):
-        current = values[0 + (index * 5)]
+    for index in range(21):
+        current = values[0 + (index * 5)] 
         alarm_max = values[1 + (index * 5)]
         alarm_min = values[2 + (index * 5)]
         warning_max = values[3 + (index * 5)]
         warning_min = values[4 + (index * 5)]
 
-        if current < warning_max and current > warning_min:
+        if type(current) is not type(3.14) or type(alarm_max) is not type(3.14) or type(alarm_min) is not type(3.14) or type(warning_max) is not type(3.14) or type(warning_min) is not type(3.14):
+            # print(warning_min, current, warning_max, 'Undefined')
+            colors.append('#540880')
+            colors.append('#AF89C4')
+        elif current < warning_max and current > warning_min:
+            # print(warning_min, current, warning_max, 'OK')
             colors.append('#EFEFEF')
             colors.append('#414F4F')
-        elif (current > warning_max and current < alarm_max) or (current < warning_min and current > alarm_min):
+        elif (current >= warning_max and current < alarm_max):
+            # print(warning_max, current, alarm_max, 'WARNING')
             colors.append("#FEF1DB")
             colors.append("#F69112")
-        elif (current > alarm_max or current < alarm_min):
+        elif (current >= alarm_max):
+            # print(alarm_min, current, alarm_max, 'ALARM')
             colors.append('#FCDBCB')
             colors.append('#AA1700')
         else:
             colors.append('#EFEFEF')
             colors.append('#414F4F')
 
+    # Для 1го ПШ
+    if "#FCDBCB" in colors[:8]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[:8]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 2ой ПШ
+    if "#FCDBCB" in colors[8:16]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[8:16]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 3ой ПШ
+    if "#FCDBCB" in colors[16:18]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[16:18]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 4ой ПШ
+    if "#FCDBCB" in colors[18:20]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[18:20]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 5ой ПШ
+    if "#FCDBCB" in colors[20:22]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[20:22]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 6ой ПШ
+    if "#FCDBCB" in colors[22:24]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[22:24]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 7ой ПШ
+    if "#FCDBCB" in colors[24:32]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[24:32]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 8ой ПШ
+    if "#FCDBCB" in colors[32:40]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[32:40]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
+    # Для 9ой ПШ
+    if "#FCDBCB" in colors[40:42]:
+        # print('RED')
+        colors.append('#FCDBCB')
+        colors.append('#AA1700')
+    elif "#FEF1DB" in colors[40:42]:
+        # print('Warning')
+        colors.append("#FEF1DB")
+        colors.append("#F69112")
+    else:
+        # print('OK')
+        colors.append('#EFEFEF')
+        colors.append('#414F4F')
+
     return {
         'values': values,
-        'colors': colors
+        'colors': colors,
+        'time': last_time
     }
 
-@app.get('/{id}')
-def get_item(id:int):
+@app.get('/lastGraphEX1/')
+def get_item():
+    cur = connection.cursor()
+    cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
+    data=cur.fetchall()
+
+    randint = random.randrange(3, 50)
+    last_time = data[len(data)-randint]
+    cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".date = '{last_time[0]}' """)
+    data=cur.fetchall()
+
     return {}
 
 if __name__ == "__main__":
