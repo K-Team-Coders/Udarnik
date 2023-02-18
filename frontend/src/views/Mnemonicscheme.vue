@@ -234,7 +234,7 @@
                                 font-size="13px">Напряжение статера, кВт</text>
 
                             <text id="current" transform="matrix(1 0 0 1 1338.3373 343.6123)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">000</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[116] }}</text>
 
                             <text id="engine_x5F_current" transform="matrix(1 0 0 1 1338.8439 365.7673)" fill="#FFFFFF"
                                 font-family="'Montserrat-Bold'" font-size="13px">000</text>
@@ -390,7 +390,7 @@
                                 <tspan x="131.508" y="0" font-family="'Montserrat-Bold'" font-size="10px">, </tspan>
                             </text>
                             <text transform="matrix(1 0 0 1 468.6939 197.4556)" font-family="'Montserrat-Bold'"
-                                font-size="10px">45</text>
+                                font-size="10px">{{ allData.values[109] }}</text>
                         </g>
                         <text transform="matrix(1 0 0 1 550.2286 122.0739)" font-family="'Montserrat-Bold'"
                             font-size="16px">Из КБЦ</text>
@@ -405,7 +405,7 @@
                                 font-size="12px">УРОВЕНЬ МАСЛА, %</text>
 
                             <text id="oil_x5F_level_x5F_value" transform="matrix(1 0 0 1 926.4594 137.9223)"
-                                font-family="'Montserrat-Bold'" font-size="12px">100</text>
+                                font-family="'Montserrat-Bold'" font-size="12px">{{ allData.values[118] }}</text>
                         </g>
                         <text transform="matrix(1 0 0 1 933.6642 119.2539)" fill="#595959" font-family="'Montserrat-Bold'"
                             font-size="12px">0</text>
@@ -431,13 +431,13 @@
     					C1277.83,192.365,1279.621,190.574,1281.83,190.574z" />
                             </g>
                             <text transform="matrix(1 0 0 1 1161.7377 135.2528)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">-233 °C</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[106] }} °C</text>
                             <text transform="matrix(1 0 0 1 1243.7682 44.1395)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">-233 °C</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[108] }}</text>
                             <text transform="matrix(1 0 0 1 1329.7202 44.2953)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">-233 °C</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[107] }}</text>
                             <text transform="matrix(1 0 0 1 1289.3063 210.36)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">-233 °C</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[105] }}</text>
                         </g>
                         <text transform="matrix(1 0 0 1 1269.0454 106.9659)" font-family="'Montserrat-Bold'"
                             font-size="12px">Охладитель</text>
@@ -450,7 +450,7 @@
                                 font-size="12px">2</text>
 
                             <text id="oil_x5F_presue_x5F_val" transform="matrix(1 0 0 1 1393.522 244.6369)"
-                                font-family="'Montserrat-Bold'" font-size="12px">6</text>
+                                font-family="'Montserrat-Bold'" font-size="12px">{{ allData.values[119] }}</text>
                         </g>
                         <text transform="matrix(1 0 0 1 1397.8297 226.1791)" fill="#595959" font-family="'Montserrat-Bold'"
                             font-size="12px">0</text>
