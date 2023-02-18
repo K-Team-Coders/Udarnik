@@ -10,7 +10,9 @@
           >
             Эксгаустер У-171
           </p>
-          <a href="#mnemonic1"><img class="flex ml-16" src="../assets/button.svg" alt=""/></a>
+          <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+    >
+  </button>
         </div>
         <div class="flex-row pt-3 bg-white">
           <div class="flex text-base h-10 mx-1">
@@ -37,9 +39,10 @@
               Прогноз: 12 сут
             </p>
           </div>
-          <div class="flex justify-center outline outline-orange-50 my-6">
+          <div class="outline outline-orange-50 my-6">
             <EngineSmall></EngineSmall>
           </div>
+          
           <div class="flex-row ml-3">
             <div class="flex">
               <img class="" src="../assets/Btn2.svg" alt="" width="30px" />
@@ -77,12 +80,12 @@
             </div>
           </div>
           <div class="flex ml-2 mt-4 pb-10">
-            <img
-              class="flex"
-              src="../assets/Btnright.svg"
-              alt=""
-              width="30px"
-            />
+            <button v-on:click="show = !show">
+    Переключить
+  </button>
+  <transition name="fade">
+    <p v-if="show">привет</p>
+  </transition>
             <p class="flex font-mono text-xl mt-0.5 ml-2">Все подшипники</p>
           </div>
         </div>
@@ -94,7 +97,13 @@
 
 import EngineSmall from '../components/EngineSmall.vue'
 export default {
-  components: { EngineSmall }
+  components: { EngineSmall },
+  data() { return {
+    show: true
+  }
+  {
+
+  }}
 }
 </script>
 
