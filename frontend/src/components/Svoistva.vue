@@ -1,5 +1,5 @@
 <template>
-    <div class="flex">
+    <div class="flex mt-2">
         <div class="flex justify-end w-full mt-2 scale-95">
             <div class="flex text-xl justify-center mx-2">
                 <img class="flex" src="../assets/TEMPA.svg" alt="" width="30px">

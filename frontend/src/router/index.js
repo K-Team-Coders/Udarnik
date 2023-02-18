@@ -13,6 +13,12 @@ const routes = [
     
     component: () => import(/* webpackChunkName: "about" */ '../views/Mnemonicscheme.vue')
   },
+  {
+    path: '/Graphics/',
+    name: 'Grapihcs',
+    
+    component: () => import(/* webpackChunkName: "about" */ '../views/Graphics.vue')
+  },
 ]
 
 const router = createRouter({
