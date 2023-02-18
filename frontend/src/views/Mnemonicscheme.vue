@@ -271,7 +271,7 @@
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,593.559,279.79,591.768,281.999,591.768z" />
                                 <text transform="matrix(1 0 0 1 315.1394 509.6255)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">8 ПС</text>
-                                <path id="temperature8_x5F_contour" fill="#414F4F" d="M281.999,521.276h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="temperature8_x5F_contour" :style="{ 'fill': allData.colors[35]}" d="M281.999,521.276h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C277.999,523.067,279.79,521.276,281.999,521.276z" />
                                 <text transform="matrix(1 0 0 1 283.4792 535.177)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -304,7 +304,7 @@
                                 font-family="'MyriadPro-Regular'" font-size="21px">8</text>
                         </g>
                         <g id="PS7">
-                            <path id="PS7_x5F_contour" fill="#FEF1DB" fill-opacity="0.45" stroke="#F69112" stroke-width="4"
+                            <path id="PS7_x5F_contour" :style="{ 'fill': allData.colors[52], 'stroke': allData.colors[53] }" fill-opacity="0.45" stroke="#F69112" stroke-width="4"
                                 d="M618.805,399.115h30.679
     				c0.895,0,1.62,0.725,1.62,1.62v59.68c0,0.895-0.725,1.62-1.62,1.62h-30.679c-0.895,0-1.62-0.725-1.62-1.62v-59.68
     				C617.185,399.84,617.911,399.115,618.805,399.115z" />
@@ -314,13 +314,13 @@
                                 <path fill="#414F4F" d="M729.449,573.577h100c5.523,0,10,4.477,10,10v116c0,5.523-4.477,10-10,10h-100c-5.523,0-10-4.477-10-10
     					v-116C719.449,578.054,723.926,573.577,729.449,573.577z" />
                                 <rect x="729.949" y="584.077" fill="none" stroke="#8D9595" width="99" height="20" />
-                                <path id="v7_x5F_contour" fill="#EB5835" d="M733.449,634.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="v7_x5F_contour" :style="{ 'fill': allData.colors[31]}" d="M733.449,634.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C729.449,636.368,731.24,634.577,733.449,634.577z" />
-                                <path id="o7_x5F_contour" fill="#EB5835" d="M733.449,680.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="o7_x5F_contour" :style="{ 'fill': allData.colors[27]}" d="M733.449,680.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C729.449,682.368,731.24,680.577,733.449,680.577z" />
                                 <text transform="matrix(1 0 0 1 766.5891 598.434)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">7 ПС</text>
-                                <path id="temperature7_x5F_contour" fill="#414F4F" d="M733.449,610.085h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="temperature7_x5F_contour" :style="{ 'fill': allData.colors[25]}" d="M733.449,610.085h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C729.449,611.875,731.24,610.085,733.449,610.085z" />
                                 <text transform="matrix(1 0 0 1 734.9289 623.9855)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -332,7 +332,7 @@
 
                                 <text id="v7_x5F_value" transform="matrix(1 0 0 1 810.5886 649.3175)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[75] }}</text>
-                                <path id="g7_x5F_contour" fill="#414F4F" d="M733.449,657.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
+                                <path id="g7_x5F_contour" :style="{ 'fill': allData.colors[29]}" d="M733.449,657.577h92c2.209,0,4,1.791,4,4c-0.827,3.505,2.505,15.225-4,15
     					c0,0-92,0-92,0c-6.409,0.238-3.312-11.512-4.001-15C729.449,659.368,731.24,657.577,733.449,657.577z" />
                                 <text transform="matrix(1 0 0 1 734.9808 671.9131)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
@@ -553,7 +553,7 @@
                         </g>
                         <g id="PS2">
                             <g>
-                                <path id="PS2_x5F_contour" fill="#FEF1DB" fill-opacity="0.45" stroke="#F69112"
+                                <path id="PS2_x5F_contour" :style="{ 'fill': allData.colors[44], 'stroke': allData.colors[45]}" fill-opacity="0.45" stroke="#F69112"
                                     stroke-width="4" d="M1081.861,326.614h30.679
     					c0.895,0,1.62,0.725,1.62,1.62v59.68c0,0.895-0.725,1.62-1.62,1.62h-30.679c-0.895,0-1.62-0.725-1.62-1.62v-59.68
     					C1080.24,327.339,1080.966,326.614,1081.861,326.614z" />
@@ -564,13 +564,13 @@
                                 <path fill="#414F4F" d="M1047.2,505.577h100c5.523,0,10,4.477,10,10v116c0,5.523-4.477,10-10,10h-100c-5.523,0-10-4.477-10-10
     					v-116C1037.2,510.054,1041.678,505.577,1047.2,505.577z" />
                                 <rect x="1047.7" y="516.077" fill="none" stroke="#8D9595" width="99" height="20" />
-                                <path id="v2_x5F_contour" fill="#EB5835" d="M1051.2,566.577h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="v2_x5F_contour" :style="{ 'fill': allData.colors[15]}" d="M1051.2,566.577h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1047.2,568.368,1048.991,566.577,1051.2,566.577z" />
-                                <path id="o2_x5F_contour" fill="#EB5835" d="M1051.2,612.577h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="o2_x5F_contour" :style="{ 'fill': allData.colors[11]}" d="M1051.2,612.577h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1047.2,614.368,1048.991,612.577,1051.2,612.577z" />
                                 <text transform="matrix(1 0 0 1 1084.3405 530.434)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">2 ПС</text>
-                                <path id="temperature2_x5F_contour" fill="#414F4F" d="M1051.2,542.085h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="temperature2_x5F_contour" :style="{ 'fill': allData.colors[9]}" d="M1051.2,542.085h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1047.2,543.875,1048.991,542.085,1051.2,542.085z" />
                                 <text transform="matrix(1 0 0 1 1052.6804 555.9855)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -582,7 +582,7 @@
 
                                 <text id="v2_x5F_value" transform="matrix(1 0 0 1 1118.2239 581.3176)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{allData.values[35]}}</text>
-                                <path id="g2_x5F_contour" fill="#414F4F" d="M1051.2,589.577h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="g2_x5F_contour" :style="{ 'fill': allData.colors[13]}" d="M1051.2,589.577h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1047.2,591.368,1048.991,589.577,1051.2,589.577z" />
                                 <text transform="matrix(1 0 0 1 1052.7322 603.9131)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
@@ -638,7 +638,7 @@
                             </g>
                         </g>
                         <g id="PS4">
-                            <path id="PS4_x5F_contour" fill="#EFEFEF" stroke="#414F4F" stroke-width="3" d="M819.807,349.756h32.297
+                            <path id="PS4_x5F_contour" :style="{ 'fill': allData.colors[48], 'stroke': allData.colors[49] }" stroke-width="3" d="M819.807,349.756h32.297
     				c4.677,0,8.468,3.36,8.468,7.505v28.625c0,4.145-3.791,7.505-8.468,7.505h-32.297c-4.677,0-8.468-3.36-8.468-7.505v-28.625
     				C811.339,353.116,815.13,349.756,819.807,349.756z" />
                             <text transform="matrix(0.9076 0.0114 -0.0126 0.9999 831.272 378.4862)"
@@ -649,7 +649,7 @@
                                 <rect x="742.688" y="253.099" fill="none" stroke="#8D9595" width="99" height="20" />
                                 <text transform="matrix(1 0 0 1 779.3285 267.4563)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">4 ПС</text>
-                                <path id="temperature4Contour" fill="#414F4F" d="M746.188,279.107h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="temperature4Contour" :style="{ 'fill': allData.colors[19]}" d="M746.188,279.107h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C742.188,280.898,743.979,279.107,746.188,279.107z" />
                                 <text transform="matrix(1 0 0 1 747.6683 293.0078)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -659,7 +659,7 @@
                             </g>
                         </g>
                         <g id="PS3">
-                            <path id="PS3_x5F_contour" fill="#FEF1DB" stroke="#F69112" stroke-width="3" d="M875.642,349.756h30.859
+                            <path id="PS3_x5F_contour" :style="{ 'fill': allData.colors[46], 'stroke': allData.colors[47] }" stroke-width="3" d="M875.642,349.756h30.859
     				c4.469,0,8.091,3.36,8.091,7.505v28.625c0,4.145-3.622,7.505-8.091,7.505h-30.859c-4.468,0-8.091-3.36-8.091-7.505v-28.625
     				C867.551,353.116,871.173,349.756,875.642,349.756z" />
                             <text transform="matrix(0.9076 0.0114 -0.0126 0.9999 886.2714 378.4859)"
@@ -670,7 +670,7 @@
                                 <rect x="889.628" y="252.377" fill="none" stroke="#8D9595" width="99" height="20" />
                                 <text transform="matrix(1 0 0 1 926.2676 266.7339)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">3 ПС</text>
-                                <path id="temperature3Contour" fill="#414F4F" d="M893.128,278.384h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="temperature3Contour" :style="{ 'fill': allData.colors[17] }" d="M893.128,278.384h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C889.128,280.175,890.919,278.384,893.128,278.384z" />
                                 <text transform="matrix(1 0 0 1 894.6075 292.2855)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -680,7 +680,7 @@
                             </g>
                         </g>
                         <g id="PS5">
-                            <path id="PS5_x5F_contour" fill="#FCDBCB" stroke="#AA1700" stroke-width="3" d="M875.854,419.021h31.669
+                            <path id="PS5_x5F_contour" :style="{ 'fill': allData.colors[50], 'stroke': allData.colors[51] }" stroke-width="3" d="M875.854,419.021h31.669
     				c4.586,0,8.303,3.36,8.303,7.505v28.625c0,4.145-3.717,7.505-8.303,7.505h-31.669c-4.586,0-8.303-3.36-8.303-7.505v-28.625
     				C867.551,422.381,871.268,419.021,875.854,419.021z" />
                             <text transform="matrix(0.9076 0.0114 -0.0126 0.9999 886.2717 447.489)"
@@ -691,7 +691,7 @@
                                 <rect x="888.825" y="514.377" fill="none" stroke="#8D9595" width="99" height="20" />
                                 <text transform="matrix(1 0 0 1 925.4647 528.7339)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">5 ПС</text>
-                                <path id="temperature5Contour" fill="#414F4F" d="M892.325,540.384h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="temperature5Contour" :style="{ 'fill': allData.colors[21]}" d="M892.325,540.384h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C888.325,542.175,890.116,540.384,892.325,540.384z" />
                                 <text transform="matrix(1 0 0 1 893.8046 554.2854)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -701,7 +701,7 @@
                             </g>
                         </g>
                         <g id="PS6">
-                            <path id="PS6_x5F_contour" fill="#EFEFEF" stroke="#414F4F" stroke-width="3" d="M821.805,419.021h30.714
+                            <path id="PS6_x5F_contour" :style="{ 'fill': allData.colors[52], 'stroke': allData.colors[53] }" stroke-width="3" d="M821.805,419.021h30.714
     				c4.447,0,8.053,3.36,8.053,7.505v28.625c0,4.145-3.605,7.505-8.053,7.505h-30.714c-4.447,0-8.053-3.36-8.053-7.505v-28.625
     				C813.752,422.381,817.357,419.021,821.805,419.021z" />
                             <text transform="matrix(0.9076 0.0114 -0.0126 0.9999 831.272 447.751)"
@@ -712,7 +712,7 @@
                                 <rect x="748.223" y="514.68" fill="none" stroke="#8D9595" width="99" height="20" />
                                 <text transform="matrix(1 0 0 1 784.8629 529.0369)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">6 ПС</text>
-                                <path id="temperature6Contour" fill="#414F4F" d="M751.723,540.687h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="temperature6Contour" :style="{ 'fill': allData.colors[23]}" d="M751.723,540.687h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C747.723,542.478,749.514,540.687,751.723,540.687z" />
                                 <text transform="matrix(1 0 0 1 753.2027 554.5884)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
