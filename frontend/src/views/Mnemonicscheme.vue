@@ -623,7 +623,7 @@
 
                                 <text id="v1_x5F_value" transform="matrix(1 0 0 1 1448.3534 576.1107)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[15] }}</text>
-                                <path id="g1_x5F_contour"  :style="{ 'fill': allData.colors[4] }"  d="M1381.33,584.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="g1_x5F_contour" :style="{ 'fill': allData.colors[4] }"  d="M1381.33,584.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1377.33,586.161,1379.121,584.37,1381.33,584.37z" />
                                 <text transform="matrix(1 0 0 1 1382.8617 598.7062)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
@@ -738,7 +738,7 @@ export default {
     computed: mapGetters(['allData']),
     methods: mapActions(['GET_ALLDATA']),
 
-    async mounted() {
+    async created() {
         setInterval(() => { JSON.parse(JSON.stringify(this.GET_ALLDATA()))}, 1000);
     }
 }
