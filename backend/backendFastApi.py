@@ -393,7 +393,7 @@ def getGraph():
 
     datasets = []
 
-    for name in names[:2]:
+    for name in names[5:10]:
         value = []
 
         for time in times:
@@ -402,11 +402,11 @@ def getGraph():
             for subdata in data:
                 value.append(subdata[2])
 
-        randomint = random.randrange(1,9)
         datasets.append({
             "label": name,
             "data": value,
-            'backgroundColor':f"#F{randomint}F{randomint}F{randomint}"
+            'backgroundColor':f"#63b524",
+            "borderColor": "#3e1eb0"
         })
 
     return {
