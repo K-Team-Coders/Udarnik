@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-1/6 pr-5">
+  <div class="flex w-1/6 pr-4">
     <div class="ml-4 rounded-md">
       <p class="flex w-full justify-center bg-gray-100">Агломашина 1</p>
       <div class="mt-2 rounded-md outline outline-orange-100">
@@ -10,7 +10,7 @@
           >
             Эксгаустер У-171
           </p>
-          <img class="flex ml-24" src="../assets/button.svg" alt="" />
+          <a href="#mnemonic1"><img class="flex ml-16" src="../assets/button.svg" alt=""/></a>
         </div>
         <div class="flex-row pt-3 bg-white">
           <div class="flex text-base h-10 mx-1">
@@ -24,7 +24,7 @@
             </p>
             <a class="flex font-mono text-base ml-2 mr-2" href="">Изменить</a>
           </div>
-          <div class="flex font-mono font-bold text-xl ml-2">
+          <div class="flex font-mono font-bold text-xl ml-2 mt-3">
             <p>Последняя замена ротора</p>
           </div>
           <div class="bg-gray-100 flex mx-2 rounded-md my-1">
@@ -53,7 +53,7 @@
             <div class="flex bg-gray-200 justify-start mt-3 mr-8 ml-2">
               <p class="font-mono text-xl ml-2 ">№7 п-к</p>
               <img
-                class="flex ml-20"
+                class="flex ml-14"
                 src="../assets/Frametempa.svg"
                 alt=""
                 width="50px"
@@ -68,7 +68,7 @@
             <div class="flex bg-gray-200 justify-start mt-2 mr-8 ml-2">
               <p class="flex font-mono text-xl ml-2">№8 п-к</p>
               <img
-                class="flex ml-20"
+                class="flex ml-14"
                 src="../assets/Frametempa.svg"
                 alt=""
                 width="50px"
