@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from typing import List
 from dotenv import load_dotenv
 from loguru import logger
-from datetime import datetime
+import datetime
 import uvicorn
 import psycopg2
 import os
@@ -356,20 +356,29 @@ def get_item():
     cur = connection.cursor()
     cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
     data=cur.fetchall()
-    randint = random.randrange(3, 50)
-    last_time = data[len(data)-randint]
+    last_time = data[len(data)-2]
 
-    print(last_time[0])
-    print(type(last_time[0]))
+    times = []
+    for index in range(1,121):
+        times.append(last_time[0] - datetime.timedelta(minutes=index))
+    times.reverse()
 
-    cur.execute("""SELECT DISTINCT "Kafka".name FROM "Kafka" ORDER BY "Kafka".name ASC""")
+    cur.execute("""SELECT DISTINCT "Kafka".name FROM "Kafka" """)
     data=cur.fetchall()
     current_data = data[0]
 
-    cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".date = '{last_time[0]}' """)
-    data=cur.fetchall()
+    value = []
+    for time in times:
+        cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".name = '{current_data[0]}' AND "Kafka".date = '{time}' """)
+        data=cur.fetchall()
+        for subdata in data:
+            value.append(subdata[2])
 
-    return {}
+    return {
+        "times": times,
+        "values": value,
+        "name": current_data
+    }
 
 if __name__ == "__main__":
     uvicorn.run(app, host="192.168.0.156", port=8079)
