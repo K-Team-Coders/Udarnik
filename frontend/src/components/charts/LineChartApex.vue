@@ -1,5 +1,5 @@
 <template>
-    <Line :options="$options" />
+    <Line :options="options" />
   </template>
   
   <script>
@@ -13,6 +13,7 @@
     Tooltip,
     Legend
   } from 'chart.js'
+  import zoomPlugin from 'chartjs-plugin-zoom';
   import { Line } from 'vue-chartjs'
   
   ChartJS.register(
@@ -22,7 +23,8 @@
     LineElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+    zoomPlugin
   )
   
   export default {
@@ -45,7 +47,20 @@
 
 export const options = {
   responsive: true,
-  maintainAspectRatio: true
+  maintainAspectRatio: true,
+  plugins: {
+      zoom: {
+        zoom: {
+          wheel: {
+            enabled: true,
+          },
+          pinch: {
+            enabled: true
+          },
+          mode: 'xy',
+        }
+      }
+    }
 }
 
   </script>
