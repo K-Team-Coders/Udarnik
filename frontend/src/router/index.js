@@ -8,10 +8,10 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/MainPage.vue')
   },
   {
-    path: '/Chart/',
-    name: 'Chart',
+    path: '/mnemonic1/',
+    name: 'mnemonic1',
     
-    component: () => import(/* webpackChunkName: "about" */ '../views/ChartPage.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Mnemonicscheme.vue')
   },
 ]
 
