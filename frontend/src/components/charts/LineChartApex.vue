@@ -1,7 +1,7 @@
 <template>
     <Line :options="options" />
   </template>
-  
+
   <script>
   import {
     Chart as ChartJS,
@@ -46,8 +46,8 @@
 }
 
 export const options = {
-  responsive: true,
-  maintainAspectRatio: true,
+  responsive: false,
+  maintainAspectRatio: false,
   plugins: {
       zoom: {
         zoom: {
