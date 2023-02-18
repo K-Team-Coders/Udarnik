@@ -18,6 +18,8 @@ IP = os.getenv('IP')
 USER = os.getenv('USER')
 PORT = os.getenv('PORT')
 PASSWORD = os.getenv('PASSWORD')
+RUN_IP = os.getenv("RUN_IP")
+RUN_PORT = os.getenv("RUN_PORT")
 
 app = FastAPI()
 
@@ -353,7 +355,7 @@ def get_item():
     }
 
 @app.get('/lastGraphEX1/')
-def get_item():
+def getGraph():
     # Отслеживаемые имена для 1го Эксгаустера
     names = [
         'SM_Exgauster[2:27]', 
@@ -385,13 +387,13 @@ def get_item():
     last_time = data[len(data)-2]
 
     times = []
-    for index in range(1,21):
+    for index in range(1,10):
         times.append(last_time[0] - datetime.timedelta(minutes=index))
     times.reverse()
 
     datasets = []
 
-    for name in names:
+    for name in names[:2]:
         value = []
 
         for time in times:
@@ -413,4 +415,4 @@ def get_item():
     }
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="192.168.0.156", port=8079)
+    uvicorn.run(app, host=RUN_IP, port=RUN_PORT)
