@@ -541,7 +541,7 @@
 					c-2.209,0-4-1.791-4-4v-11C747.723,542.478,749.514,540.687,751.723,540.687z"/>
 				<text transform="matrix(1 0 0 1 753.2027 554.5884)" fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 				
-					<text id="temperature6_x5F_value" transform="matrix(1 0 0 1 818.7463 554.7434)" fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+					<text id="temperature6_x5F_value" transform="matrix(1 0 0 1 818.7463 554.7434)" fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{allData}}</text>
 			</g>
 		</g>
 	</g>
@@ -552,12 +552,17 @@
 
 <script>
 import d3 from 'd3'
+import {mapActions, mapGetters} from 'vuex'
 
 export default {
-
+    computed: mapGetters(['allData']),
+    methods: mapActions(['GET_ALLDATA']),
+    async mounted(){
+        setInterval(() => {this.GET_ALLDATA()}, 1000);
+    }
 }
 </script>
 
-<style type="text/css">
+<style>
 	
 </style>
