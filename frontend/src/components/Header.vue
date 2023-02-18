@@ -1,29 +1,32 @@
 <template>
   <header>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg shadow-md py-2 bg-white   items-center ">
-    <div class="px-6 w-full flex flex-wrap items-center justify-between">
-      <div class="flex items-center">
+    <nav class="bg-orange-600 border-gray-200 px-4 py-1">
+      <div class="flex flex-wrap justify-between items-center mx-auto">
+        <div
+          class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+          id="mobile-menu-2"
+        >
+          <ul
+            class="flex font-medium flex-row space-x-8 mt-0"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 pr-4 pl-3 text-gray-50 hover:text-green-300"
+                aria-current="page"
+                >Прогнозная аналитика эксгаустеров</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pr-4 pl-3 text-gray-50 hover:text-green-300 border-b   border-0 p-0 "
+                >Состояние эксгаустеров
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="navbar-collapse collapse items-center" id="navbarSupportedContentY">
-        <ul class="navbar-nav mr-auto flex">
-          <li class="nav-item">
-            <a class="nav-link pr-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pr-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pr-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">Pricing</a>
-          </li>
-          <li class="nav-item mb-2 lg:mb-0">
-            <a class="nav-link pr-2 py-2 text-gray-600 hover:text-gray-700 focus:text-gray-700" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Navbar -->
-
-</header>
+    </nav>
+  </header>
 </template>
