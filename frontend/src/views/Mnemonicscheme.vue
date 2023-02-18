@@ -442,7 +442,7 @@
                         <text transform="matrix(1 0 0 1 1269.0454 106.9659)" font-family="'Montserrat-Bold'"
                             font-size="12px">Охладитель</text>
                         <g id="oil_x5F_presure">
-                            <rect id="oil_x5F_presure_x5F_loader" x="1388.33" y="230.375" fill="#FDC65F" width="215"
+                            <rect id="oil_x5F_presure_x5F_loader" x="1388.33" y="230.375" fill="#FDC65F" :style="{ 'width': allData.values[119]* 100/6}"
                                 height="33" />
                             <text transform="matrix(1 0 0 1 1392.134 261.498)" font-family="'Montserrat-Medium'"
                                 font-size="12px">ДАВЛЕНИЕ МАСЛА, кг/см</text>
