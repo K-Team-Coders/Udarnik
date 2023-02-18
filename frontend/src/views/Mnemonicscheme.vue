@@ -606,13 +606,13 @@
                                 <path fill="#414F4F" d="M1377.33,500.37h100c5.523,0,10,4.477,10,10v116c0,5.523-4.477,10-10,10h-100c-5.523,0-10-4.477-10-10
     					v-116C1367.33,504.847,1371.807,500.37,1377.33,500.37z" />
                                 <rect x="1377.83" y="510.87" fill="none" stroke="#8D9595" width="99" height="20" />
-                                <path id="v1_x5F_contour" fill={{allData.colors[2]}} d="M1381.33,561.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="v1_x5F_contour" :style="{ 'fill': allData.colors[3] }" d="M1381.33,561.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1377.33,563.161,1379.121,561.37,1381.33,561.37z" />
-                                <path id="o1_x5F_contour" fill={{allData.colors[6]}} d="M1381.33,607.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="o1_x5F_contour" :style="{ 'fill': allData.colors[7] }" d="M1381.33,607.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1377.33,609.161,1379.121,607.37,1381.33,607.37z" />
                                 <text transform="matrix(1 0 0 1 1414.47 525.2272)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">1 ПС</text>
-                                <path id="temperature1_x5F_contour" fill={{allData.colors[0]}} d="M1381.33,536.878h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="temperature1_x5F_contour" :style="{ 'fill': allData.colors[1] }" d="M1381.33,536.878h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1377.33,538.669,1379.121,536.878,1381.33,536.878z" />
                                 <text transform="matrix(1 0 0 1 1382.8098 550.7787)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
@@ -623,7 +623,7 @@
 
                                 <text id="v1_x5F_value" transform="matrix(1 0 0 1 1448.3534 576.1107)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[15] }}</text>
-                                <path id="g1_x5F_contour" :style="{ 'fill': allData.colors[4] }"  d="M1381.33,584.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
+                                <path id="g1_x5F_contour" :style="{ 'fill': allData.colors[5] }"  d="M1381.33,584.37h92c2.209,0,4,1.791,4,4v11c0,2.209-1.791,4-4,4h-92
     					c-2.209,0-4-1.791-4-4v-11C1377.33,586.161,1379.121,584.37,1381.33,584.37z" />
                                 <text transform="matrix(1 0 0 1 1382.8617 598.7062)" fill="#FFFFFF"
                                     font-family="'Montserrat-Bold'" font-size="13px">Г, мм/с</text>
