@@ -1,0 +1,830 @@
+<template>
+  <body>
+    <div class="">
+      <svg
+        version="1.1"
+        id="Слой_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 260 139"
+        style="enable-background:new 0 0 260 139;"
+        xml:space="preserve"
+      >
+        <path
+          class="st0"
+          d="M13.1,1.5H249c2.6,0,4.8,2.2,4.8,5v126c0,2.8-2.1,5-4.8,5H13.1c-2.6,0-4.8-2.2-4.8-5V6.5
+	C8.4,3.8,10.5,1.5,13.1,1.5z"
+        />
+        <path
+          class="st1"
+          d="M173.5,18.5h53c1.9,0,3.5,1.6,3.5,3.5v43c0,1.9-1.6,3.5-3.5,3.5h-53c-1.9,0-3.5-1.6-3.5-3.5V22
+	C170,20.1,171.6,18.5,173.5,18.5z"
+        />
+        <path class="st2" d="M167,31.5h3v26l-3-3.8V31.5z" />
+        <path class="st2" d="M233,57.5h-3v-26l3,3.8V57.5z" />
+        <path
+          class="st1"
+          d="M83.9,31.5h51.9c2.5,0,4.5,2,4.5,4.5V78c0,2.5-2,4.5-4.5,4.5H83.9c-2.5,0-4.5-2-4.5-4.5V36.1
+	C79.3,33.6,81.4,31.5,83.9,31.5z"
+        />
+        <path
+          class="st3"
+          d="M82.5,33.5l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L82.5,33.5z"
+        />
+        <path
+          class="st3"
+          d="M82.5,77.6l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L82.5,77.6z"
+        />
+        <path
+          class="st3"
+          d="M82.5,55l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4L82.5,58l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L82.5,55z"
+        />
+        <path
+          class="st3"
+          d="M136.5,33.5l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L136.5,33.5z
+	"
+        />
+        <path
+          class="st3"
+          d="M136.5,77.6l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L136.5,77.6z
+	"
+        />
+        <path
+          class="st3"
+          d="M136.5,55l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L136.5,55z"
+        />
+        <path
+          class="st3"
+          d="M109.8,33.5l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L109.8,33.5z
+	"
+        />
+        <path
+          class="st3"
+          d="M109.8,77.6l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L109.8,77.6z
+	"
+        />
+        <path
+          class="st1"
+          d="M12.3,56.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3H12.3c-1.3,0-2.3-1-2.3-2.3V58.8
+	C10,57.5,11,56.5,12.3,56.5z"
+        />
+        <path
+          class="st3"
+          d="M12.5,57.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L12.5,57.8z"
+        />
+        <path
+          class="st3"
+          d="M12.5,80.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4L11.2,83l0-0.8l0-0.8l0.7-0.4L12.5,80.8z"
+        />
+        <path
+          class="st3"
+          d="M23.5,57.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4L22.2,60l0-0.8l0-0.8l0.7-0.4L23.5,57.8z"
+        />
+        <path
+          class="st3"
+          d="M23.5,80.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4L22.2,83l0-0.8l0-0.8l0.7-0.4L23.5,80.8z"
+        />
+        <path class="st2" d="M14,66.5h15v10H14V66.5z" />
+        <defs>
+          <filter
+            id="Adobe_OpacityMaskFilter"
+            filterUnits="userSpaceOnUse"
+            x="12"
+            y="60.5"
+            width="12"
+            height="20"
+          >
+            <feColorMatrix
+              type="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+            />
+          </filter>
+        </defs>
+        <mask
+          maskUnits="userSpaceOnUse"
+          x="12"
+          y="60.5"
+          width="12"
+          height="20"
+          id="path-24-inside-5_392_14033_1_"
+        >
+          <path
+            class="st4"
+            d="M13.8,61.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V62.3
+		C13,61.9,13.3,61.5,13.8,61.5z"
+          />
+        </mask>
+        <path
+          class="st5"
+          d="M13.8,61.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V62.3
+	C13,61.9,13.3,61.5,13.8,61.5z"
+        />
+        <path
+          class="st1"
+          d="M57.3,56.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3H57.3c-1.3,0-2.3-1-2.3-2.3V58.8
+	C55,57.5,56,56.5,57.3,56.5z"
+        />
+        <path
+          class="st3"
+          d="M57.5,57.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L57.5,57.8z"
+        />
+        <path
+          class="st3"
+          d="M57.5,80.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4L56.2,83l0-0.8l0-0.8l0.7-0.4L57.5,80.8z"
+        />
+        <path
+          class="st3"
+          d="M68.5,57.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4L67.2,60l0-0.8l0-0.8l0.7-0.4L68.5,57.8z"
+        />
+        <path
+          class="st3"
+          d="M68.5,80.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4L67.2,83l0-0.8l0-0.8l0.7-0.4L68.5,80.8z"
+        />
+        <path class="st2" d="M53,66.5h26v10H53V66.5z" />
+        <defs>
+          <filter
+            id="Adobe_OpacityMaskFilter_1_"
+            filterUnits="userSpaceOnUse"
+            x="57"
+            y="60.5"
+            width="12"
+            height="20"
+          >
+            <feColorMatrix
+              type="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+            />
+          </filter>
+        </defs>
+        <mask
+          maskUnits="userSpaceOnUse"
+          x="57"
+          y="60.5"
+          width="12"
+          height="20"
+          id="path-31-inside-6_392_14033_1_"
+        >
+          <path
+            class="st6"
+            d="M58.8,61.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V62.3
+		C58,61.9,58.3,61.5,58.8,61.5z"
+          />
+        </mask>
+        <path
+          class="st7"
+          d="M58.8,61.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V62.3
+	C58,61.9,58.3,61.5,58.8,61.5z"
+        />
+        <path
+          class="st1"
+          d="M152.3,29.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3h-11.5c-1.3,0-2.3-1-2.3-2.3V31.8
+	C150,30.5,151,29.5,152.3,29.5z"
+        />
+        <path
+          class="st3"
+          d="M152.5,30.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L152.5,30.8z
+	"
+        />
+        <path
+          class="st3"
+          d="M152.5,53.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L152.5,53.8z
+	"
+        />
+        <path
+          class="st3"
+          d="M163.5,30.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L163.5,30.8z
+	"
+        />
+        <path
+          class="st3"
+          d="M163.5,53.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L163.5,53.8z
+	"
+        />
+        <path class="st2" d="M140,39.5h27v10h-27V39.5z" />
+        <defs>
+          <filter
+            id="Adobe_OpacityMaskFilter_2_"
+            filterUnits="userSpaceOnUse"
+            x="152"
+            y="33.5"
+            width="12"
+            height="20"
+          >
+            <feColorMatrix
+              type="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+            />
+          </filter>
+        </defs>
+        <mask
+          maskUnits="userSpaceOnUse"
+          x="152"
+          y="33.5"
+          width="12"
+          height="20"
+          id="path-38-inside-7_392_14033_1_"
+        >
+          <path
+            class="st8"
+            d="M153.8,34.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V35.3
+		C153,34.9,153.3,34.5,153.8,34.5z"
+          />
+        </mask>
+        <path
+          class="st9"
+          d="M153.8,34.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V35.3
+	C153,34.9,153.3,34.5,153.8,34.5z"
+        />
+        <path
+          class="st1"
+          d="M236.3,29.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3h-11.5c-1.3,0-2.3-1-2.3-2.3V31.8
+	C234,30.5,235,29.5,236.3,29.5z"
+        />
+        <path
+          class="st3"
+          d="M236.5,30.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L236.5,30.8z
+	"
+        />
+        <path
+          class="st3"
+          d="M236.5,53.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L236.5,53.8z
+	"
+        />
+        <path
+          class="st3"
+          d="M247.5,30.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L247.5,30.8z
+	"
+        />
+        <path
+          class="st3"
+          d="M247.5,53.8l0.6,0.4l0.7,0.4l0,0.8l0,0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4l0-0.8l0-0.8l0.7-0.4L247.5,53.8z
+	"
+        />
+        <path class="st2" d="M231,39.5h16v10h-16V39.5z" />
+        <defs>
+          <filter
+            id="Adobe_OpacityMaskFilter_3_"
+            filterUnits="userSpaceOnUse"
+            x="236"
+            y="33.5"
+            width="12"
+            height="20"
+          >
+            <feColorMatrix
+              type="matrix"
+              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+            />
+          </filter>
+        </defs>
+        <mask
+          maskUnits="userSpaceOnUse"
+          x="236"
+          y="33.5"
+          width="12"
+          height="20"
+          id="path-45-inside-8_392_14033_1_"
+        >
+          <path
+            class="st10"
+            d="M237.8,34.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V35.3
+		C237,34.9,237.3,34.5,237.8,34.5z"
+          />
+        </mask>
+        <path
+          class="st11"
+          d="M237.8,34.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V35.3
+	C237,34.9,237.3,34.5,237.8,34.5z"
+        />
+        <rect x="29.5" y="42.1" class="st12" width="22.9" height="54.9" />
+        <rect x="29.3" y="44" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="49.6" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="55.2" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="60.8" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="66.4" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="72" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="77.6" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="83.2" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="88.9" class="st1" width="23" height="1.4" />
+        <rect x="29.3" y="94.5" class="st1" width="23" height="1.4" />
+        <path class="st1" d="M11.9,20.6l17.1,21h24l17.4-21v-10H11.9V20.6z" />
+        <path class="st1" d="M70,118.7L53,97.5H28.9L12,118.7v9.9h58V118.7z" />
+        <path
+          class="st13"
+          d="M6,1.5h248c2.8,0,5,2.2,5,5v126c0,2.8-2.2,5-5,5H6c-2.8,0-5-2.2-5-5V6.5C1,3.8,3.2,1.5,6,1.5z"
+        />
+        <g id="PS4">
+          <defs>
+            <filter
+              id="Adobe_OpacityMaskFilter_4_"
+              filterUnits="userSpaceOnUse"
+              x="86"
+              y="38.1"
+              width="23"
+              height="18"
+            >
+              <feColorMatrix
+                type="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+              />
+            </filter>
+          </defs>
+          <mask
+            maskUnits="userSpaceOnUse"
+            x="86"
+            y="38.1"
+            width="23"
+            height="18"
+            id="path-14-inside-1_392_14033_1_"
+          >
+            <path
+              class="st14"
+              d="M87.8,39.1h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8H87.8c-0.4,0-0.8-0.3-0.8-0.8V39.8
+			C87,39.4,87.3,39.1,87.8,39.1z"
+            />
+          </mask>
+          <path
+            class="st15"
+            d="M87.8,39.1h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8H87.8c-0.4,0-0.8-0.3-0.8-0.8V39.8
+		C87,39.4,87.3,39.1,87.8,39.1z"
+          />
+          <rect x="87.8" y="40.1" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 94.2627 51.3326)" class="st17 st18">
+            4
+          </text>
+        </g>
+        <g id="PS3">
+          <defs>
+            <filter
+              id="Adobe_OpacityMaskFilter_5_"
+              filterUnits="userSpaceOnUse"
+              x="110"
+              y="38"
+              width="23"
+              height="18"
+            >
+              <feColorMatrix
+                type="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+              />
+            </filter>
+          </defs>
+          <mask
+            maskUnits="userSpaceOnUse"
+            x="110"
+            y="38"
+            width="23"
+            height="18"
+            id="path-16-inside-3_392_14033_1_"
+          >
+            <path
+              class="st19"
+              d="M111.8,39h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8h-19.5c-0.4,0-0.8-0.3-0.8-0.8V39.8
+			C111,39.4,111.3,39,111.8,39z"
+            />
+          </mask>
+          <path
+            class="st20"
+            d="M111.8,39h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8h-19.5c-0.4,0-0.8-0.3-0.8-0.8V39.8
+		C111,39.4,111.3,39,111.8,39z"
+          />
+          <rect x="111.9" y="40" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 118.4223 51.2975)" class="st17 st18">
+            3
+          </text>
+        </g>
+        <g id="PS6">
+          <defs>
+            <filter
+              id="Adobe_OpacityMaskFilter_6_"
+              filterUnits="userSpaceOnUse"
+              x="86"
+              y="59.5"
+              width="23"
+              height="18"
+            >
+              <feColorMatrix
+                type="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+              />
+            </filter>
+          </defs>
+          <mask
+            maskUnits="userSpaceOnUse"
+            x="86"
+            y="59.5"
+            width="23"
+            height="18"
+            id="path-15-inside-2_392_14033_1_"
+          >
+            <path
+              class="st21"
+              d="M87.8,60.5h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8H87.8c-0.4,0-0.8-0.3-0.8-0.8V61.3
+			C87,60.9,87.3,60.5,87.8,60.5z"
+            />
+          </mask>
+          <path
+            class="st22"
+            d="M87.8,60.5h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8H87.8c-0.4,0-0.8-0.3-0.8-0.8V61.3
+		C87,60.9,87.3,60.5,87.8,60.5z"
+          />
+          <rect x="87.9" y="61.2" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 94.4222 72.4445)" class="st17 st18">
+            6
+          </text>
+        </g>
+        <g id="PS5">
+          <defs>
+            <filter
+              id="Adobe_OpacityMaskFilter_7_"
+              filterUnits="userSpaceOnUse"
+              x="110"
+              y="59.8"
+              width="23"
+              height="18"
+            >
+              <feColorMatrix
+                type="matrix"
+                values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"
+              />
+            </filter>
+          </defs>
+          <mask
+            maskUnits="userSpaceOnUse"
+            x="110"
+            y="59.8"
+            width="23"
+            height="18"
+            id="path-17-inside-4_392_14033_1_"
+          >
+            <path
+              class="st23"
+              d="M111.8,60.8h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8h-19.5c-0.4,0-0.8-0.3-0.8-0.8V61.6
+			C111,61.2,111.3,60.8,111.8,60.8z"
+            />
+          </mask>
+          <path
+            class="st24"
+            d="M111.8,60.8h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8h-19.5c-0.4,0-0.8-0.3-0.8-0.8V61.6
+		C111,61.2,111.3,60.8,111.8,60.8z"
+          />
+          <rect x="111.9" y="61.8" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 118.4223 73.0827)" class="st17 st18">
+            5
+          </text>
+        </g>
+        <g id="PS1">
+          <rect x="238" y="35.5" class="st25" width="8" height="16" />
+          <rect x="232.4" y="36.5" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 238.9223 47.7848)" class="st17 st18">
+            1
+          </text>
+        </g>
+        <g id="PS2">
+          <rect x="154" y="35.5" class="st25" width="8" height="16" />
+          <rect x="148.4" y="36.5" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 154.9223 47.7848)" class="st17 st18">
+            2
+          </text>
+        </g>
+        <g id="PS7">
+          <rect x="59" y="62.5" class="st25" width="8" height="16" />
+          <rect x="53.4" y="63.2" class="st16" width="19.1" height="14" />
+          <text transform="matrix(1 0 0 1 59.9223 74.4263)" class="st17 st18">
+            7
+          </text>
+        </g>
+        <g id="PS8">
+          <rect x="14" y="62.5" class="st25" width="8" height="8" />
+          <rect x="14" y="62.5" class="st16" width="8" height="8.1" />
+          <text transform="matrix(1 0 0 1 16.4677 68.6865)" class="st17 st26">
+            8
+          </text>
+        </g>
+        <line class="st25" x1="14" y1="70.5" x2="22" y2="70.5" />
+        <line class="st16" x1="21.5" y1="90.9" x2="21.5" y2="90.9" />
+        <rect x="14" y="71" class="st16" width="8" height="0" />
+        <g id="PS9">
+          <rect x="14" y="70.5" class="st25" width="8" height="8.2" />
+          <rect x="14" y="70.6" class="st16" width="8" height="8.1" />
+          <text transform="matrix(1 0 0 1 16.4608 76.7766)" class="st17 st26">
+            9
+          </text>
+        </g>
+        <path
+          class="st0"
+          d="M119.2,112.4h58.2c0.2,0,0.3,0.1,0.3,0.3V129c0,0.2-0.1,0.3-0.3,0.3h-58.2c-0.2,0-0.3-0.1-0.3-0.3v-16.3
+	C118.9,112.6,119.1,112.4,119.2,112.4z"
+        />
+        <rect x="120.4" y="114.2" class="st27" width="0.3" height="3.6" />
+        <rect x="129.6" y="114.2" class="st27" width="0.3" height="3.6" />
+        <rect x="139.1" y="114.2" class="st27" width="0.3" height="3.6" />
+        <rect x="148.3" y="114.2" class="st27" width="0.3" height="3.6" />
+        <rect x="157.5" y="114.2" class="st27" width="0.3" height="3.6" />
+        <rect x="166.8" y="114.2" class="st27" width="0.3" height="3.6" />
+        <rect x="176" y="114.2" class="st27" width="0.3" height="3.6" />
+        <path
+          class="st28"
+          d="M119.2,112.4h58.2c0.2,0,0.3,0.1,0.3,0.3V129c0,0.2-0.1,0.3-0.3,0.3h-58.2c-0.2,0-0.3-0.1-0.3-0.3v-16.3
+	C118.9,112.6,119.1,112.4,119.2,112.4z"
+        />
+        <g id="oil_x5F_level">
+          <rect
+            id="oil_x5F_level_x5F_loader"
+            x="120.4"
+            y="118.7"
+            class="st29"
+            width="55.8"
+            height="9.2"
+          />
+          <text
+            transform="matrix(1.0017 0 0 1 122.0279 127.0276)"
+            class="st30 st31"
+          >
+            УРОВЕНЬ МАСЛА, %
+          </text>
+          <text
+            id="oil_x5F_level_x5F_value"
+            transform="matrix(1.0017 0 0 1 122.085 122.7766)"
+            class="st30 st31"
+          >
+            100
+          </text>
+        </g>
+        <text
+          transform="matrix(1.0017 0 0 1 124.2252 117.2414)"
+          class="st32 st30 st31"
+        >
+          0
+        </text>
+        <text
+          transform="matrix(1.0017 0 0 1 132.0933 117.2414)"
+          class="st32 st30 st31"
+        >
+          20
+        </text>
+        <text
+          transform="matrix(1.0017 0 0 1 141.4708 117.2414)"
+          class="st32 st30 st31"
+        >
+          40
+        </text>
+        <text
+          transform="matrix(1.0017 0 0 1 150.627 117.2951)"
+          class="st32 st30 st31"
+        >
+          60
+        </text>
+        <text
+          transform="matrix(1.0017 0 0 1 160.3839 117.2414)"
+          class="st32 st30 st31"
+        >
+          80
+        </text>
+        <text
+          transform="matrix(1.0017 0 0 1 167.9517 117.302)"
+          class="st32 st30 st31"
+        >
+          100
+        </text>
+        <path
+          class="st33"
+          d="M182.8,112.4h65.5c0.2,0,0.3,0.1,0.3,0.3v16.4c0,0.2-0.1,0.3-0.3,0.3h-65.5c-0.2,0-0.3-0.1-0.3-0.3v-16.4
+	C182.5,112.5,182.7,112.4,182.8,112.4z"
+        />
+        <rect x="184" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="192.9" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="202.2" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="211.1" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="220" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="229" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="237.9" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="246.9" y="114.1" class="st27" width="0.3" height="3.5" />
+        <rect x="184" y="118.4" class="st34" width="0.6" height="9.5" />
+        <rect x="246.6" y="118.4" class="st34" width="0.6" height="9.5" />
+        <g id="oil_x5F_presure">
+          <rect
+            id="oil_x5F_presure_x5F_loader"
+            x="184.6"
+            y="118.4"
+            class="st35"
+            width="62"
+            height="9.5"
+          />
+          <text transform="matrix(1 0 0 1 185.6709 126.98)" class="st30 st36">
+            ДАВЛЕНИЕ МАСЛА, кг/см
+          </text>
+          <text
+            transform="matrix(0.583 0 0 0.583 230.2822 125.8267)"
+            class="st30 st36"
+          >
+            2
+          </text>
+          <text
+            id="oil_x5F_presue_x5F_val"
+            transform="matrix(1 0 0 1 186.0537 122.5562)"
+            class="st30 st36"
+          >
+            6
+          </text>
+        </g>
+        <text
+          transform="matrix(1 0 0 1 187.2969 117.231)"
+          class="st32 st30 st36"
+        >
+          0
+        </text>
+        <text
+          transform="matrix(1 0 0 1 196.8311 117.231)"
+          class="st32 st30 st36"
+        >
+          1
+        </text>
+        <text
+          transform="matrix(1 0 0 1 205.5078 117.231)"
+          class="st32 st30 st36"
+        >
+          2
+        </text>
+        <text
+          transform="matrix(1 0 0 1 214.4863 117.231)"
+          class="st32 st30 st36"
+        >
+          3
+        </text>
+        <text
+          transform="matrix(1 0 0 1 223.6533 117.231)"
+          class="st32 st30 st36"
+        >
+          4
+        </text>
+        <text
+          transform="matrix(1 0 0 1 232.3896 117.231)"
+          class="st32 st30 st36"
+        >
+          5
+        </text>
+        <text
+          transform="matrix(1 0 0 1 241.2822 117.231)"
+          class="st32 st30 st36"
+        >
+          6
+        </text>
+      </svg>
+    </div>
+  </body>
+</template>
+<style type="text/css">
+.st0 {
+  fill: #eff2f6;
+}
+.st1 {
+  fill: #677272;
+}
+.st2 {
+  fill: #3b4848;
+}
+.st3 {
+  fill: #8d9595;
+}
+.st4 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter);
+}
+.st5 {
+  mask: url(#path-24-inside-5_392_14033_1_);
+  fill: #414f4f;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st6 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_1_);
+}
+.st7 {
+  mask: url(#path-31-inside-6_392_14033_1_);
+  fill: #414f4f;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st8 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_2_);
+}
+.st9 {
+  mask: url(#path-38-inside-7_392_14033_1_);
+  fill: #414f4f;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st10 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_3_);
+}
+.st11 {
+  mask: url(#path-45-inside-8_392_14033_1_);
+  fill: #414f4f;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st12 {
+  fill: #8d9595;
+  stroke: #677272;
+  stroke-width: 1.0521;
+}
+.st13 {
+  fill: none;
+  stroke: #ced7e7;
+  stroke-width: 2;
+}
+.st14 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_4_);
+}
+.st15 {
+  mask: url(#path-14-inside-1_392_14033_1_);
+  fill: #ffffff;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st16 {
+  fill: none;
+}
+.st17 {
+  font-family: 'MyriadPro-Regular';
+}
+.st18 {
+  font-size: 12px;
+}
+.st19 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_5_);
+}
+.st20 {
+  mask: url(#path-16-inside-3_392_14033_1_);
+  fill: #ffffff;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st21 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_6_);
+}
+.st22 {
+  mask: url(#path-15-inside-2_392_14033_1_);
+  fill: #ffffff;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st23 {
+  fill: #ffffff;
+  filter: url(#Adobe_OpacityMaskFilter_7_);
+}
+.st24 {
+  mask: url(#path-17-inside-4_392_14033_1_);
+  fill: #ffffff;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st25 {
+  fill: #ffffff;
+}
+.st26 {
+  font-size: 6px;
+}
+.st27 {
+  fill: #d9dada;
+}
+.st28 {
+  fill: none;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st29 {
+  fill: #1fb826;
+}
+.st30 {
+  font-family: 'MSReferenceSansSerif';
+}
+.st31 {
+  font-size: 3.5586px;
+}
+.st32 {
+  fill: #595959;
+}
+.st33 {
+  fill: #eff2f6;
+  stroke: #8d9595;
+  stroke-width: 2;
+}
+.st34 {
+  fill: #eb5835;
+}
+.st35 {
+  fill: #fdc65f;
+}
+.st36 {
+  font-size: 3.4626px;
+}
+</style>
