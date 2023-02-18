@@ -43,26 +43,28 @@ connection = psycopg2.connect(
     port='5432'
 )
 cursor = connection.cursor()
-
+index = 1
 # Сбор данных с Kafka
 while True:
     msg = c.poll(timeout=3.0)
     if msg:
         message = msg.value().decode()
+        part = message[:35]
         try:
             message = json.loads(message.replace('\\', ''))
-            moment = message['moment']
-            moment = moment.replace('T', ' ')
-
             keys = list(message.keys())
             for key in keys[1:]:
                 try:
-                    time.sleep(1)
-                    cursor.execute(f""" INSERT INTO "Kafka" VALUES ('{key}', '{message[key]}', '{moment[:36]}') """)
+                    moment = message['moment']
+                    moment = moment.replace('T', ' ')
+                    logger.success(index)
+                    logger.success(part)
+                    cursor.execute(f""" INSERT INTO "Kafka" VALUES ('{index}', '{key}', '{message[key]}', '{moment}') """)
                     connection.commit()
                 except Exception as e:
-                    logger.error(f"""'{key}', '{message[key]}', '{moment}'""")
+                    logger.error(f""" '{index}', '{key}', '{message[key]}', '{moment}'""")
                     logger.error(e)
+                index += 1
 
         except Exception as e:
             logger.debug(e)
