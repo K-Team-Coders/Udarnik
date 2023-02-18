@@ -9,8 +9,8 @@
             <img src="../assets/RED.svg" alt="" width="20px">
             <p class="font-mono text-center ml-2 mr-13.5">Опасность</p>
         </div>
-        <div class="flex justify-start ml-10">
-            <Links></Links>
+        <div class="flex h-10 justify-end mr-10 mt-10">
+          <Links></Links>
         </div>
         <div class="mt-6 bg-light-gray shadow-2xl outline outline-gray-100">
             <svg version="1.1" id="MnemonicScheme" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
@@ -697,7 +697,7 @@
                                     font-family="'Montserrat-Bold'" font-size="13px">T, °C</text>
 
                                 <text id="temperature5_x5F_value" transform="matrix(1 0 0 1 959.3481 554.4404)"
-                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">220</text>
+                                    fill="#FFFFFF" font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[40]}}</text>
                             </g>
                         </g>
                         <g id="PS6">
@@ -733,11 +733,12 @@
 <script>
 import d3 from 'd3'
 import { mapActions, mapGetters } from 'vuex'
-
+import Headernd from '../components/Headernd.vue'
+import Links from '../components/Links.vue'
 export default {
     computed: mapGetters(['allData']),
     methods: mapActions(['GET_ALLDATA']),
-
+    components:{Headernd,Links},
     async mounted() {
         setInterval(() => { JSON.parse(JSON.stringify(this.GET_ALLDATA()))}, 1000);
     }
