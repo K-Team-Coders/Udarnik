@@ -390,7 +390,7 @@
                                 <tspan x="131.508" y="0" font-family="'Montserrat-Bold'" font-size="10px">, </tspan>
                             </text>
                             <text transform="matrix(1 0 0 1 468.6939 197.4556)" font-family="'Montserrat-Bold'"
-                                font-size="10px">{{ allData.values[109] }}</text>
+                                font-size="10px">{{ allData.values[109] }} </text>
                         </g>
                         <text transform="matrix(1 0 0 1 550.2286 122.0739)" font-family="'Montserrat-Bold'"
                             font-size="16px">Из КБЦ</text>
@@ -399,7 +399,7 @@
                         <text transform="matrix(1 0 0 1 984.826 73.8738)" font-family="'Montserrat-Bold'"
                             font-size="12px">Маслобак</text>
                         <g id="oil_x5F_level">
-                            <rect id="oil_x5F_level_x5F_loader" x="920.826" y="124.074" fill="#1FB826" width="188.004"
+                            <rect id="oil_x5F_level_x5F_loader" x="920.826" y="124.074" fill="#1FB826" :style="{ 'width': allData.values[118]* 188.004/100}"
                                 height="31" />
                             <text transform="matrix(1 0 0 1 926.2675 152.2527)" font-family="'Montserrat-Medium'"
                                 font-size="12px">УРОВЕНЬ МАСЛА, %</text>
@@ -431,13 +431,13 @@
     					C1277.83,192.365,1279.621,190.574,1281.83,190.574z" />
                             </g>
                             <text transform="matrix(1 0 0 1 1161.7377 135.2528)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[106] }} °C</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[106] }}°C</text>
                             <text transform="matrix(1 0 0 1 1243.7682 44.1395)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[108] }}</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[108] }}°C</text>
                             <text transform="matrix(1 0 0 1 1329.7202 44.2953)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[107] }}</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[107] }}°C</text>
                             <text transform="matrix(1 0 0 1 1289.3063 210.36)" fill="#FFFFFF"
-                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[105] }}</text>
+                                font-family="'Montserrat-Bold'" font-size="13px">{{ allData.values[105] }}°C</text>
                         </g>
                         <text transform="matrix(1 0 0 1 1269.0454 106.9659)" font-family="'Montserrat-Bold'"
                             font-size="12px">Охладитель</text>
