@@ -2125,7 +2125,7 @@ export default {
   async created () {
     setInterval(() => {
       JSON.parse(JSON.stringify(this.GET_ALLDATA()))
-    }, 30000)
+    }, 60000)
   }
 }
 </script>

@@ -37,9 +37,10 @@
               Прогноз: 12 сут
             </p>
           </div>
-          <div class="flex justify-center outline outline-orange-50 my-6">
+          <div class="outline outline-orange-50 my-6">
             <EngineSmall></EngineSmall>
           </div>
+          
           <div class="flex-row ml-3">
             <div class="flex">
               <img class="" src="../assets/Btn2.svg" alt="" width="30px" />
