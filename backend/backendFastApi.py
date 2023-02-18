@@ -6,6 +6,7 @@ from pydantic import BaseModel
 from typing import List
 from dotenv import load_dotenv
 from loguru import logger
+from datetime import datetime
 import uvicorn
 import psycopg2
 import os
@@ -355,9 +356,16 @@ def get_item():
     cur = connection.cursor()
     cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
     data=cur.fetchall()
-
     randint = random.randrange(3, 50)
     last_time = data[len(data)-randint]
+
+    print(last_time[0])
+    print(type(last_time[0]))
+
+    cur.execute("""SELECT DISTINCT "Kafka".name FROM "Kafka" ORDER BY "Kafka".name ASC""")
+    data=cur.fetchall()
+    current_data = data[0]
+
     cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".date = '{last_time[0]}' """)
     data=cur.fetchall()
 
