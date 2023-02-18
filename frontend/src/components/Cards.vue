@@ -38,12 +38,7 @@
             </p>
           </div>
           <div class="flex justify-center outline outline-orange-50 my-6">
-            <img
-              class=" bg-gray-50"
-              src="../assets/Scheme1st.svg"
-              alt=""
-              width="1000px"
-            />
+            <EngineSmall></EngineSmall>
           </div>
           <div class="flex-row ml-3">
             <div class="flex">
@@ -95,3 +90,13 @@
     </div>
   </div>
 </template>
+<script>
+
+import EngineSmall from '../components/EngineSmall.vue'
+export default {
+  components: { EngineSmall }
+}
+</script>
+
+<style></style>
+
