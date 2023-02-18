@@ -557,6 +557,7 @@ import {mapActions, mapGetters} from 'vuex'
 export default {
     computed: mapGetters(['allData']),
     methods: mapActions(['GET_ALLDATA']),
+
     async mounted(){
         setInterval(() => {this.GET_ALLDATA()}, 1000);
     }
