@@ -1139,7 +1139,7 @@
               <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path :style="{ fill: allData.colors[0], stroke: allData.colors[1] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[8], stroke: allData.colors[9] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -1180,7 +1180,7 @@
                 xml:space="preserve"
               >
                 <path
-                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
+                :style="{ fill: allData.colors[12] , stroke:allData.colors[13] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -1268,7 +1268,7 @@
                 xml:space="preserve"
               >
                 <path
-                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
+                :style="{ fill: allData.colors[10], stroke: allData.colors[11] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
@@ -1591,7 +1591,7 @@
               <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path :style="{ fill: allData.colors[0], stroke: allData.colors[1] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[24], stroke: allData.colors[25] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -1632,7 +1632,7 @@
                 xml:space="preserve"
               >
                 <path
-                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
+                :style="{ fill: allData.colors[28] , stroke:allData.colors[29] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -1720,7 +1720,7 @@
                 xml:space="preserve"
               >
                 <path
-                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
+                :style="{ fill: allData.colors[26], stroke: allData.colors[27] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
