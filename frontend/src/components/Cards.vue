@@ -1180,7 +1180,7 @@
                 xml:space="preserve"
               >
                 <path
-                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
+                :style="{ fill: allData.colors[12] , stroke:allData.colors[13] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -1268,7 +1268,7 @@
                 xml:space="preserve"
               >
                 <path
-                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
+                :style="{ fill: allData.colors[10], stroke: allData.colors[11] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
