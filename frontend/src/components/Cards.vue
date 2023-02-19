@@ -1,10 +1,16 @@
 <template>
-  <div class=" pr-4">
+  <div class="flex w-1/6 pr-4">
     <div class="ml-4 rounded-md">
       <p class="flex w-full justify-center bg-gray-100">Агломашина (Экран состояния эксгаустера)</p>
       <div class="mt-2 rounded-md outline outline-orange-100">
         <div class="flex bg-gray1 p-1 rounded-md">
-          <img class="flex ml-4" src="../assets/Ellipse.svg" alt="" />
+          <svg width="10" height="11" viewBox="0 0 10 11" v-if="allData.values[120] == 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="5" cy="5.5249" r="5" fill="#45f542"/>
+</svg>
+<svg width="10" height="11" viewBox="0 0 10 11" v-else fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="5" cy="5.5249" r="5" fill="#bf1a0b"/>
+</svg>
+
           <p
             class="flex justify-start ml-2 text-center text-white font-mono text-base"
           >
