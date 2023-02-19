@@ -7,10 +7,7 @@
         <div class="flex mt-3">
           <Cards></Cards>
           <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
-          <Cards></Cards>
+          {{ allData.values[0] }}
         </div>
       </div>
   </body>
@@ -20,9 +17,17 @@
 import Header from '../components/Header.vue'
 import Svoistva from '../components/Svoistva.vue'
 import Cards from '../components/Cards.vue'
-import EngineSmall from '../components/EngineSmall.vue'
+import { mapActions, mapGetters } from 'vuex'
 export default {
-  components: { Header, Svoistva, Cards,EngineSmall }
+  components: { Header, Svoistva, Cards },
+  computed: mapGetters(['allData']),
+  methods: mapActions(['GET_ALLDATA']),
+  async created() {
+    setInterval(() => {
+      JSON.parse(JSON.stringify(this.GET_ALLDATA()))
+      console.log(this.allData)
+    }, 10000)
+  }
 }
 </script>
 

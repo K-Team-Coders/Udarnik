@@ -16,7 +16,10 @@ import random
 load_dotenv("./DB.env")
 IP = os.getenv('IP')
 USER = os.getenv('USER')
+PORT = os.getenv('PORT')
 PASSWORD = os.getenv('PASSWORD')
+RUN_IP = os.getenv("RUN_IP")
+RUN_PORT = os.getenv("RUN_PORT")
 
 app = FastAPI()
 
@@ -35,11 +38,12 @@ try:
         dbname='test', 
         user=USER,
         password=PASSWORD, 
-        host=IP
+        host=IP,
+        port=PORT
     )
     print('Соединение установлено!')
 except Exception as e:
-    print(e)
+    logger.error(e)
 
 @app.get('/lastMnemonicEX1/')
 def get_item():
@@ -170,8 +174,7 @@ def get_item():
     cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
     data=cur.fetchall()
 
-    randint = random.randrange(3, 50)
-    last_time = data[len(data)-randint]
+    last_time = data[len(data)-3]
     cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".date = '{last_time[0]}' """)
     data=cur.fetchall()
 
@@ -352,33 +355,64 @@ def get_item():
     }
 
 @app.get('/lastGraphEX1/')
-def get_item():
+def getGraph():
+    # Отслеживаемые имена для 1го Эксгаустера
+    names = [
+        'SM_Exgauster[2:27]', 
+        'SM_Exgauster[2:2]', 
+        'SM_Exgauster[2:0]', 
+        'SM_Exgauster[2:1]',
+        'SM_Exgauster[2:5]', 
+        'SM_Exgauster[2:28]', 
+        'SM_Exgauster[2:3]', 
+        'SM_Exgauster[2:4]', 
+        'SM_Exgauster[2:29]', 
+        'SM_Exgauster[2:30]', 
+        'SM_Exgauster[2:31]', 
+        'SM_Exgauster[2:32]', 
+        'SM_Exgauster[2:33]', 
+        'SM_Exgauster[2:8]', 
+        'SM_Exgauster[2:6]', 
+        'SM_Exgauster[2:7]', 
+        'SM_Exgauster[2:34]', 
+        'SM_Exgauster[2:11]', 
+        'SM_Exgauster[2:9]', 
+        'SM_Exgauster[2:10]', 
+        'SM_Exgauster[2:35]'
+    ]
+
     cur = connection.cursor()
     cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
     data=cur.fetchall()
     last_time = data[len(data)-2]
 
     times = []
-    for index in range(1,121):
+    for index in range(1,10):
         times.append(last_time[0] - datetime.timedelta(minutes=index))
     times.reverse()
 
-    cur.execute("""SELECT DISTINCT "Kafka".name FROM "Kafka" """)
-    data=cur.fetchall()
-    current_data = data[0]
+    datasets = []
 
-    value = []
-    for time in times:
-        cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".name = '{current_data[0]}' AND "Kafka".date = '{time}' """)
-        data=cur.fetchall()
-        for subdata in data:
-            value.append(subdata[2])
+    for name in names[5:10]:
+        value = []
+
+        for time in times:
+            cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".name = '{name}' AND "Kafka".date = '{time}' """)
+            data=cur.fetchall()
+            for subdata in data:
+                value.append(subdata[2])
+
+        datasets.append({
+            "label": name,
+            "data": value,
+            'backgroundColor':f"#63b524",
+            "borderColor": "#3e1eb0"
+        })
 
     return {
         "times": times,
-        "values": value,
-        "name": current_data
+        "datasets": datasets
     }
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="192.168.0.156", port=8079)
+    uvicorn.run(app, host=RUN_IP, port=RUN_PORT)

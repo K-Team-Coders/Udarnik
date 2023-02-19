@@ -1,67 +1,64 @@
 <template>
-    <Line :options="options" />
-  </template>
+  <Line :options="options" />
+</template>
 
-  <script>
-  import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend
-  } from 'chart.js'
-  import zoomPlugin from 'chartjs-plugin-zoom';
-  import { Line } from 'vue-chartjs'
-  
-  ChartJS.register(
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Legend,
-    zoomPlugin
-  )
-  
-  export default {
-    components: {
-      Line
-    },
-    data() {
+<script>
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+} from 'chart.js'
+import zoomPlugin from 'chartjs-plugin-zoom';
+import { Line } from 'vue-chartjs'
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+  zoomPlugin
+)
+
+export default {
+  components: {
+    Line
+  },
+  data() {
     return {
-        labels: [],
-        datasets: [
-                {
-                label: 'Data One',
-                backgroundColor: '#f87979',
-                data: []
-                }
-            ]
+      labels: [],
+      datasets: [
+        {
+          label: 'Data One',
+          backgroundColor: '#f87979',
+          data: []
         }
-    }
-}
-
-export const options = {
-  responsive: false,
-  maintainAspectRatio: false,
-  plugins: {
-      zoom: {
-        zoom: {
-          wheel: {
-            enabled: true,
-          },
-          pinch: {
-            enabled: true
-          },
-          mode: 'xy',
+      ],
+        
+    options: [ {
+        responsive: true,
+        maintainAspectRatio: true,
+        plugins: {
+          zoom: {
+            zoom: {
+              wheel: {
+                enabled: true,
+              },
+              pinch: {
+                enabled: true
+              },
+              mode: 'xy',
+            }
+          }
         }
-      }
-    }
-}
+  }]}}}
 
-  </script>
+</script>
   
