@@ -196,7 +196,7 @@ def get_item():
 
     # Подшипники 9
     for index in range(21):
-        current = values[0 + (index * 5)] * 5
+        current = values[0 + (index * 5)] 
         alarm_max = values[1 + (index * 5)]
         alarm_min = values[2 + (index * 5)]
         warning_max = values[3 + (index * 5)]
