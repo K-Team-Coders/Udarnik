@@ -1,148 +1,194 @@
-<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 138">
-  <path d="M173.5,18.5h53A3.543,3.543,0,0,1,230,22V65a3.543,3.543,0,0,1-3.5,3.5h-53A3.543,3.543,0,0,1,170,65V22A3.543,3.543,0,0,1,173.5,18.5Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M167,31.5h3v26l-3-3.8Z" transform="translate(0 -0.5)" style="fill: #3b4848"/>
-  <path d="M233,57.5h-3v-26l3,3.8Z" transform="translate(0 -0.5)" style="fill: #3b4848"/>
-  <path d="M83.9,31.5h51.9a4.481,4.481,0,0,1,4.5,4.5V78a4.481,4.481,0,0,1-4.5,4.5H83.9A4.481,4.481,0,0,1,79.4,78V36.1A4.5,4.5,0,0,1,83.9,31.5Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M82.5,33.5l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V34.3l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M82.5,77.6l.6.4.7.4V80l-.7.4-.6.4-.6-.4-.7-.4V78.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M82.5,55l.6.4.7.4v1.6l-.7.4-.6.2-.6-.4-.7-.4V55.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M136.5,33.5l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V34.3l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M136.5,77.6l.6.4.7.4V80l-.7.4-.6.4-.6-.4-.7-.4V78.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M136.5,55l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V55.8l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M109.8,33.5l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V34.3l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M109.8,77.6l.6.4.7.4V80l-.7.4-.6.4-.6-.4-.7-.4V78.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M12.3,56.5H23.8a2.263,2.263,0,0,1,2.3,2.3V82.3a2.263,2.263,0,0,1-2.3,2.3H12.3A2.263,2.263,0,0,1,10,82.3V58.8A2.263,2.263,0,0,1,12.3,56.5Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M12.5,57.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V58.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M12.5,80.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.6V81.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M23.5,57.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.6V58.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M23.5,80.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.6V81.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M14,66.5H29v10H14Z" transform="translate(0 -0.5)" style="fill: #3b4848"/>
-  <path d="M13.8,61.5h8.5a.789.789,0,0,1,.8.8V78.8a.789.789,0,0,1-.8.8H13.8a.789.789,0,0,1-.8-.8V62.3A.789.789,0,0,1,13.8,61.5Z" transform="translate(0 -0.5)" style="fill: #414f4f;stroke: #8d9595;stroke-width: 2px"/>
-  <path d="M57.3,56.5H68.8a2.263,2.263,0,0,1,2.3,2.3V82.3a2.263,2.263,0,0,1-2.3,2.3H57.3A2.263,2.263,0,0,1,55,82.3V58.8A2.263,2.263,0,0,1,57.3,56.5Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M57.5,57.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V58.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M57.5,80.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.6V81.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M68.5,57.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.6V58.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M68.5,80.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.6V81.4l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M53,66.5H79v10H53Z" transform="translate(0 -0.5)" style="fill: #3b4848"/>
-  <path d="M58.8,61.5h8.5a.789.789,0,0,1,.8.8V78.8a.789.789,0,0,1-.8.8H58.8a.789.789,0,0,1-.8-.8V62.3A.789.789,0,0,1,58.8,61.5Z" transform="translate(0 -0.5)" style="fill: #414f4f;stroke: #8d9595;stroke-width: 2px"/>
-  <path d="M152.3,29.5h11.5a2.263,2.263,0,0,1,2.3,2.3V55.3a2.263,2.263,0,0,1-2.3,2.3H152.3a2.263,2.263,0,0,1-2.3-2.3V31.8A2.263,2.263,0,0,1,152.3,29.5Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M152.5,30.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V31.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M152.5,53.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V54.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M163.5,30.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V31.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M163.5,53.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V54.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M140,39.5h27v10H140Z" transform="translate(0 -0.5)" style="fill: #3b4848"/>
-  <path d="M153.8,34.5h8.5a.789.789,0,0,1,.8.8V51.8a.789.789,0,0,1-.8.8h-8.5a.789.789,0,0,1-.8-.8V35.3A.789.789,0,0,1,153.8,34.5Z" transform="translate(0 -0.5)" style="fill: #414f4f;stroke: #8d9595;stroke-width: 2px"/>
-  <path d="M236.3,29.5h11.5a2.263,2.263,0,0,1,2.3,2.3V55.3a2.263,2.263,0,0,1-2.3,2.3H236.3a2.263,2.263,0,0,1-2.3-2.3V31.8A2.263,2.263,0,0,1,236.3,29.5Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M236.5,30.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V31.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M236.5,53.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V54.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M247.5,30.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V31.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M247.5,53.8l.6.4.7.4v1.6l-.7.4-.6.4-.6-.4-.7-.4V54.6l.7-.4Z" transform="translate(0 -0.5)" style="fill: #8d9595"/>
-  <path d="M231,39.5h16v10H231Z" transform="translate(0 -0.5)" style="fill: #3b4848"/>
-  <path d="M237.8,34.5h8.5a.789.789,0,0,1,.8.8V51.8a.789.789,0,0,1-.8.8h-8.5a.789.789,0,0,1-.8-.8V35.3A.789.789,0,0,1,237.8,34.5Z" transform="translate(0 -0.5)" style="fill: #414f4f;stroke: #8d9595;stroke-width: 2px"/>
-  <rect x="29.5" y="41.6" width="22.9" height="54.9" style="fill: #8d9595;stroke: #677272;stroke-width: 1.0520999431610107px"/>
-  <rect x="29.3" y="43.5" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="49.1" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="54.7" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="60.3" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="65.9" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="71.5" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="77.1" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="82.7" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="88.4" width="23" height="1.4" style="fill: #677272"/>
-  <rect x="29.3" y="94" width="23" height="1.4" style="fill: #677272"/>
-  <path d="M11.9,20.6,29,41.6H53l17.4-21v-10H11.9Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M70,118.7,53,97.5H28.9L12,118.7v9.9H70Z" transform="translate(0 -0.5)" style="fill: #677272"/>
-  <path d="M6,1.5H254a4.951,4.951,0,0,1,5,5v126a4.951,4.951,0,0,1-5,5H6a4.951,4.951,0,0,1-5-5V6.5A5.015,5.015,0,0,1,6,1.5Z" transform="translate(0 -0.5)" style="fill: none;stroke: #ced7e7;stroke-width: 2px"/>
-  <g id="PS4">
-    <path d="M87.8,39.1h19.5a.789.789,0,0,1,.8.8V54.4a.789.789,0,0,1-.8.8H87.8a.789.789,0,0,1-.8-.8V39.8A.713.713,0,0,1,87.8,39.1Z" transform="translate(0 -0.5)" style="fill: #fff;stroke: #8d9595;stroke-width: 2px"/>
-    <rect x="87.8" y="39.6" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(94.263 50.833)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">4</text>
-  </g>
-  <g id="PS3">
-    <path d="M111.8,39h19.5a.789.789,0,0,1,.8.8V54.3a.789.789,0,0,1-.8.8H111.8a.789.789,0,0,1-.8-.8V39.8A.789.789,0,0,1,111.8,39Z" transform="translate(0 -0.5)" style="fill: #fff;stroke: #8d9595;stroke-width: 2px"/>
-    <rect x="111.9" y="39.5" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(118.422 50.797)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">3</text>
-  </g>
-  <g id="PS6">
-    <path d="M87.8,60.5h19.5a.789.789,0,0,1,.8.8V75.8a.789.789,0,0,1-.8.8H87.8a.789.789,0,0,1-.8-.8V61.3A.789.789,0,0,1,87.8,60.5Z" transform="translate(0 -0.5)" style="fill: #fff;stroke: #8d9595;stroke-width: 2px"/>
-    <rect x="87.9" y="60.7" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(94.422 71.945)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">6</text>
-  </g>
-  <g id="PS5">
-    <path d="M111.8,60.8h19.5a.789.789,0,0,1,.8.8V76.1a.789.789,0,0,1-.8.8H111.8a.789.789,0,0,1-.8-.8V61.6A.789.789,0,0,1,111.8,60.8Z" transform="translate(0 -0.5)" style="fill: #fff;stroke: #8d9595;stroke-width: 2px"/>
-    <rect x="111.9" y="61.3" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(118.422 72.583)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">5</text>
-  </g>
-  <g id="PS1">
-    <rect x="238" y="35" width="8" height="16" style="fill: #fff"/>
-    <rect x="232.4" y="36" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(238.922 47.285)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">1</text>
-  </g>
-  <g id="PS2">
-    <rect x="154" y="35" width="8" height="16" style="fill: #fff"/>
-    <rect x="148.4" y="36" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(154.922 47.285)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">2</text>
-  </g>
-  <g id="PS7">
-    <rect x="59" y="62" width="8" height="16" style="fill: #fff"/>
-    <rect x="53.4" y="62.7" width="19.1" height="14" style="fill: none"/>
-    <text transform="translate(59.922 73.926)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">7</text>
-  </g>
-  <g id="PS8">
-    <rect x="14" y="62" width="8" height="8" style="fill: #fff"/>
-    <rect x="14" y="62" width="8" height="8.1" style="fill: none"/>
-    <text transform="translate(16.468 68.187)" style="isolation: isolate;font-size: 6px;font-family: ArialMT, Arial">8</text>
-  </g>
-  <line x1="14" y1="70" x2="22" y2="70" style="fill: none"/>
-  <line x1="21.5" y1="90.4" x2="21.5" y2="90.4" style="fill: none"/>
-  <polygon points="14 70.5 22 70.5 22 70.5 14 70.5" style="fill: none"/>
-  <g id="PS9">
-    <rect x="14" y="70" width="8" height="8.2" style="fill: #fff"/>
-    <rect x="14" y="70.1" width="8" height="8.1" style="fill: none"/>
-    <text transform="translate(16.461 76.277)" style="isolation: isolate;font-size: 6px;font-family: ArialMT, Arial">9</text>
-  </g>
-  <path d="M77.447,106.532h78.407a.357.357,0,0,1,.4.4V128.9a.357.357,0,0,1-.4.4H77.447a.357.357,0,0,1-.4-.4v-21.96A.608.608,0,0,1,77.447,106.532Z" transform="translate(0 -0.5)" style="fill: #eff2f6"/>
-  <rect x="79.063" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <rect x="91.458" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <rect x="104.256" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <rect x="116.65" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <rect x="129.045" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <rect x="141.574" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <rect x="153.968" y="108.457" width="0.404" height="4.85" style="fill: #d9dada"/>
-  <path d="M77.447,106.532h78.407a.357.357,0,0,1,.4.4V128.9a.357.357,0,0,1-.4.4H77.447a.357.357,0,0,1-.4-.4v-21.96A.608.608,0,0,1,77.447,106.532Z" transform="translate(0 -0.5)" style="fill: none;stroke: #8d9595;stroke-width: 2px"/>
-  <g id="oil_level">
-    <rect id="oil_level_loader" x="79.063" y="114.52" width="75.174" height="12.394" style="fill: #1fb826"/>
-    <text transform="translate(81.258 125.739)" style="isolation: isolate;font-size: 4.794163703918457px;font-family: MSReferenceSansSerif, MS Reference Sans Serif">УРОВЕНЬ МАСЛА, %</text>
-    <text id="oil_level_value" transform="translate(81.334 120.012)" style="isolation: isolate;font-size: 4.794163703918457px;font-family: MSReferenceSansSerif, MS Reference Sans Serif">100</text>
-  </g>
-  <text transform="translate(84.218 112.556)" style="isolation: isolate;font-size: 4.794163703918457px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">0</text>
-  <text transform="translate(94.818 112.556)" style="isolation: isolate;font-size: 4.794163703918457px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">20</text>
-  <text transform="translate(107.451 112.556)" style="isolation: isolate;font-size: 4.794163703918457px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">40</text>
-  <text transform="translate(119.786 112.628)" style="isolation: isolate;font-size: 4.794163703918457px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">60</text>
-  <text transform="translate(132.931 112.556)" style="isolation: isolate;font-size: 4.794163703918457px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">80</text>
-  <text transform="translate(143.126 112.637)" style="isolation: isolate;font-size: 4.794163703918457px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">100</text>
-  <path d="M163.155,106.223h89.3a.361.361,0,0,1,.409.409v22.359a.361.361,0,0,1-.409.409h-89.3a.361.361,0,0,1-.409-.409V106.632A.435.435,0,0,1,163.155,106.223Z" transform="translate(0 -0.5)" style="fill: #eff2f6;stroke: #8d9595;stroke-width: 2px"/>
-  <rect x="164.791" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="176.925" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="189.604" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="201.738" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="213.871" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="226.142" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="238.275" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="250.545" y="108.041" width="0.409" height="4.772" style="fill: #d9dada"/>
-  <rect x="164.791" y="113.903" width="0.818" height="12.952" style="fill: #eb5835"/>
-  <rect x="250.136" y="113.903" width="0.818" height="12.952" style="fill: #eb5835"/>
-  <g id="oil_presure">
-    <rect id="oil_presure_loader" x="165.609" y="113.903" width="84.527" height="12.952" style="fill: #fdc65f"/>
-    <text transform="translate(167.069 125.6)" style="isolation: isolate;font-size: 4.7207136154174805px;font-family: MSReferenceSansSerif, MS Reference Sans Serif">ДАВЛЕНИЕ МАСЛА, кг/см</text>
-    <text transform="translate(227.889 124.027)" style="isolation: isolate;font-size: 2.75217604637146px;font-family: MSReferenceSansSerif, MS Reference Sans Serif">2</text>
-    <text id="oil_presue_val" transform="translate(167.591 119.568)" style="isolation: isolate;font-size: 4.7207136154174805px;font-family: MSReferenceSansSerif, MS Reference Sans Serif">6</text>
-  </g>
-  <text transform="translate(169.286 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">0</text>
-  <text transform="translate(182.284 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">1</text>
-  <text transform="translate(194.113 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">2</text>
-  <text transform="translate(206.354 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">3</text>
-  <text transform="translate(218.852 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">4</text>
-  <text transform="translate(230.763 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">5</text>
-  <text transform="translate(242.887 112.309)" style="isolation: isolate;font-size: 4.7207136154174805px;fill: #595959;font-family: MSReferenceSansSerif, MS Reference Sans Serif">6</text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 260 139" style="enable-background:new 0 0 260 139;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#677272;}
+	.st1{fill:#3B4848;}
+	.st2{fill:#8D9595;}
+	.st3{fill:#414F4F;stroke:#8D9595;stroke-width:2;}
+	.st4{fill:#8D9595;stroke:#677272;stroke-width:1.0521;}
+	.st5{fill:none;stroke:#CED7E7;stroke-width:2;}
+	.st6{fill:#FFFFFF;stroke:#8D9595;stroke-width:2;}
+	.st7{fill:none;}
+	.st8{font-family:'ArialMT';}
+	.st9{font-size:12px;}
+	.st10{fill:#FFFFFF;}
+	.st11{font-size:6px;}
+	.st12{fill:#EFF2F6;}
+	.st13{fill:#D9DADA;}
+	.st14{fill:none;stroke:#8D9595;stroke-width:2;}
+	.st15{fill:#1FB826;}
+	.st16{font-family:'MSReferenceSansSerif';}
+	.st17{font-size:4.7942px;}
+	.st18{fill:#595959;}
+	.st19{fill:#EFF2F6;stroke:#8D9595;stroke-width:2;}
+	.st20{fill:#EB5835;}
+	.st21{fill:#FDC65F;}
+	.st22{font-size:4.7207px;}
+	.st23{font-size:2.7522px;}
+</style>
+<path class="st0" d="M173.5,18.5h53c1.9,0,3.5,1.6,3.5,3.5v43c0,1.9-1.6,3.5-3.5,3.5h-53c-1.9,0-3.5-1.6-3.5-3.5V22
+	C170,20.1,171.6,18.5,173.5,18.5z"/>
+<path class="st1" d="M167,31.5h3v26l-3-3.8V31.5z"/>
+<path class="st1" d="M233,57.5h-3v-26l3,3.8V57.5z"/>
+<path class="st0" d="M83.9,31.5h51.9c2.5,0,4.5,2,4.5,4.5v42c0,2.5-2,4.5-4.5,4.5H83.9c-2.5,0-4.5-2-4.5-4.5V36.1
+	C79.3,33.6,81.4,31.5,83.9,31.5z"/>
+<path class="st2" d="M82.5,33.5l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L82.5,33.5z"/>
+<path class="st2" d="M82.5,77.6l0.6,0.4l0.7,0.4v0.8V80l-0.7,0.4l-0.6,0.4l-0.6-0.4L81.2,80v-0.8v-0.8l0.7-0.4L82.5,77.6z"/>
+<path class="st2" d="M82.5,55l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L82.5,58l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L82.5,55z"/>
+<path class="st2" d="M136.5,33.5l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L136.5,33.5z"/>
+<path class="st2" d="M136.5,77.6l0.6,0.4l0.7,0.4v0.8V80l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L136.5,77.6z"/>
+<path class="st2" d="M136.5,55l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L136.5,55z"/>
+<path class="st2" d="M109.8,33.5l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L109.8,33.5z"/>
+<path class="st2" d="M109.8,77.6l0.6,0.4l0.7,0.4v0.8V80l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L109.8,77.6z"/>
+<path class="st0" d="M12.3,56.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3H12.3c-1.3,0-2.3-1-2.3-2.3V58.8
+	C10,57.5,11,56.5,12.3,56.5z"/>
+<path class="st2" d="M12.5,57.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L12.5,61l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L12.5,57.8z"/>
+<path class="st2" d="M12.5,80.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L12.5,84l-0.6-0.4L11.2,83v-0.8v-0.8l0.7-0.4L12.5,80.8z"/>
+<path class="st2" d="M23.5,57.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L23.5,61l-0.6-0.4L22.2,60v-0.8v-0.8l0.7-0.4L23.5,57.8z"/>
+<path class="st2" d="M23.5,80.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L23.5,84l-0.6-0.4L22.2,83v-0.8v-0.8l0.7-0.4L23.5,80.8z"/>
+<path class="st1" d="M14,66.5h15v10H14V66.5z"/>
+<path class="st3" d="M13.8,61.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V62.3
+	C13,61.9,13.3,61.5,13.8,61.5z"/>
+<path class="st0" d="M57.3,56.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3H57.3c-1.3,0-2.3-1-2.3-2.3V58.8
+	C55,57.5,56,56.5,57.3,56.5z"/>
+<path class="st2" d="M57.5,57.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L57.5,61l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L57.5,57.8z"/>
+<path class="st2" d="M57.5,80.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L57.5,84l-0.6-0.4L56.2,83v-0.8v-0.8l0.7-0.4L57.5,80.8z"/>
+<path class="st2" d="M68.5,57.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L68.5,61l-0.6-0.4L67.2,60v-0.8v-0.8l0.7-0.4L68.5,57.8z"/>
+<path class="st2" d="M68.5,80.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4L68.5,84l-0.6-0.4L67.2,83v-0.8v-0.8l0.7-0.4L68.5,80.8z"/>
+<path class="st1" d="M53,66.5h26v10H53V66.5z"/>
+<path class="st3" d="M58.8,61.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V62.3
+	C58,61.9,58.3,61.5,58.8,61.5z"/>
+<path class="st0" d="M152.3,29.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3h-11.5c-1.3,0-2.3-1-2.3-2.3V31.8
+	C150,30.5,151,29.5,152.3,29.5z"/>
+<path class="st2" d="M152.5,30.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L152.5,30.8z"/>
+<path class="st2" d="M152.5,53.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L152.5,53.8z"/>
+<path class="st2" d="M163.5,30.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L163.5,30.8z"/>
+<path class="st2" d="M163.5,53.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L163.5,53.8z"/>
+<path class="st1" d="M140,39.5h27v10h-27V39.5z"/>
+<path class="st3" d="M153.8,34.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V35.3
+	C153,34.9,153.3,34.5,153.8,34.5z"/>
+<path class="st0" d="M236.3,29.5h11.5c1.3,0,2.3,1,2.3,2.3v23.5c0,1.3-1,2.3-2.3,2.3h-11.5c-1.3,0-2.3-1-2.3-2.3V31.8
+	C234,30.5,235,29.5,236.3,29.5z"/>
+<path class="st2" d="M236.5,30.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L236.5,30.8z"/>
+<path class="st2" d="M236.5,53.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L236.5,53.8z"/>
+<path class="st2" d="M247.5,30.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L247.5,30.8z"/>
+<path class="st2" d="M247.5,53.8l0.6,0.4l0.7,0.4v0.8v0.8l-0.7,0.4l-0.6,0.4l-0.6-0.4l-0.7-0.4v-0.8v-0.8l0.7-0.4L247.5,53.8z"/>
+<path class="st1" d="M231,39.5h16v10h-16V39.5z"/>
+<path class="st3" d="M237.8,34.5h8.5c0.4,0,0.8,0.3,0.8,0.8v16.5c0,0.4-0.3,0.8-0.8,0.8h-8.5c-0.4,0-0.8-0.3-0.8-0.8V35.3
+	C237,34.9,237.3,34.5,237.8,34.5z"/>
+<rect x="29.5" y="42.1" class="st4" width="22.9" height="54.9"/>
+<rect x="29.3" y="44" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="49.6" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="55.2" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="60.8" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="66.4" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="72" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="77.6" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="83.2" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="88.9" class="st0" width="23" height="1.4"/>
+<rect x="29.3" y="94.5" class="st0" width="23" height="1.4"/>
+<path class="st0" d="M11.9,20.6l17.1,21h24l17.4-21v-10H11.9V20.6z"/>
+<path class="st0" d="M70,118.7L53,97.5H28.9L12,118.7v9.9h58V118.7z"/>
+<path class="st5" d="M6,1.5h248c2.8,0,5,2.2,5,5v126c0,2.8-2.2,5-5,5H6c-2.8,0-5-2.2-5-5V6.5C1,3.8,3.2,1.5,6,1.5z"/>
+<g id="PS4">
+	<path class="st6" d="M87.8,39.1h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8H87.8c-0.4,0-0.8-0.3-0.8-0.8V39.8
+		C87,39.4,87.3,39.1,87.8,39.1z"/>
+	<rect x="87.8" y="40.1" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 94.2627 51.3326)" class="st8 st9">4</text>
+</g>
+<g id="PS3">
+	<path class="st6" d="M111.8,39h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8h-19.5c-0.4,0-0.8-0.3-0.8-0.8V39.8
+		C111,39.4,111.3,39,111.8,39z"/>
+	<rect x="111.9" y="40" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 118.4223 51.2975)" class="st8 st9">3</text>
+</g>
+<g id="PS6">
+	<path class="st6" d="M87.8,60.5h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8H87.8c-0.4,0-0.8-0.3-0.8-0.8V61.3
+		C87,60.9,87.3,60.5,87.8,60.5z"/>
+	<rect x="87.9" y="61.2" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 94.4222 72.4445)" class="st8 st9">6</text>
+</g>
+<g id="PS5">
+	<path class="st6" d="M111.8,60.8h19.5c0.4,0,0.8,0.3,0.8,0.8v14.5c0,0.4-0.3,0.8-0.8,0.8h-19.5c-0.4,0-0.8-0.3-0.8-0.8V61.6
+		C111,61.2,111.3,60.8,111.8,60.8z"/>
+	<rect x="111.9" y="61.8" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 118.4223 73.0827)" class="st8 st9">5</text>
+</g>
+<g id="PS1">
+	<rect x="238" y="35.5" class="st10" width="8" height="16"/>
+	<rect x="232.4" y="36.5" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 238.9224 47.7848)" class="st8 st9">1</text>
+</g>
+<g id="PS2">
+	<rect x="154" y="35.5" class="st10" width="8" height="16"/>
+	<rect x="148.4" y="36.5" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 154.9223 47.7848)" class="st8 st9">2</text>
+</g>
+<g id="PS7">
+	<rect x="59" y="62.5" class="st10" width="8" height="16"/>
+	<rect x="53.4" y="63.2" class="st7" width="19.1" height="14"/>
+	<text transform="matrix(1 0 0 1 59.9223 74.4263)" class="st8 st9">7</text>
+</g>
+<g id="PS8">
+	<rect x="14" y="62.5" class="st10" width="8" height="8"/>
+	<rect x="14" y="62.5" class="st7" width="8" height="8.1"/>
+	<text transform="matrix(1 0 0 1 16.4677 68.6865)" class="st8 st11">8</text>
+</g>
+<line class="st7" x1="14" y1="70.5" x2="22" y2="70.5"/>
+<line class="st7" x1="21.5" y1="90.9" x2="21.5" y2="90.9"/>
+<polygon class="st7" points="14,71 22,71 22,71 "/>
+<g id="PS9">
+	<rect x="14" y="70.5" class="st10" width="8" height="8.2"/>
+	<rect x="14" y="70.6" class="st7" width="8" height="8.1"/>
+	<text transform="matrix(1 0 0 1 16.4608 76.7766)" class="st8 st11">9</text>
+</g>
+<path class="st12" d="M77.4,106.5h78.4c0.3,0,0.4,0.1,0.4,0.4v22c0,0.3-0.1,0.4-0.4,0.4H77.4c-0.3,0-0.4-0.1-0.4-0.4v-22
+	C77,106.8,77.3,106.5,77.4,106.5z"/>
+<rect x="79.1" y="109" class="st13" width="0.4" height="4.8"/>
+<rect x="91.5" y="109" class="st13" width="0.4" height="4.8"/>
+<rect x="104.3" y="109" class="st13" width="0.4" height="4.8"/>
+<rect x="116.7" y="109" class="st13" width="0.4" height="4.8"/>
+<rect x="129" y="109" class="st13" width="0.4" height="4.8"/>
+<rect x="141.6" y="109" class="st13" width="0.4" height="4.8"/>
+<rect x="154" y="109" class="st13" width="0.4" height="4.8"/>
+<path class="st14" d="M77.4,106.5h78.4c0.3,0,0.4,0.1,0.4,0.4v22c0,0.3-0.1,0.4-0.4,0.4H77.4c-0.3,0-0.4-0.1-0.4-0.4v-22
+	C77,106.8,77.3,106.5,77.4,106.5z"/>
+<g id="oil_x5F_level">
+	<rect id="oil_x5F_level_x5F_loader" x="79.1" y="115" class="st15" width="75.2" height="12.4"/>
+	<text transform="matrix(1.0017 0 0 1 81.2578 126.2393)" class="st16 st17">УРОВЕНЬ МАСЛА, %</text>
+	<text id="oil_x5F_level_x5F_value" transform="matrix(1.0017 0 0 1 81.334 120.5117)" class="st16 st17">100</text>
+</g>
+<text transform="matrix(1.0017 0 0 1 84.2183 113.0557)" class="st18 st16 st17">0</text>
+<text transform="matrix(1.0017 0 0 1 94.8179 113.0557)" class="st18 st16 st17">20</text>
+<text transform="matrix(1.0017 0 0 1 107.4512 113.0557)" class="st18 st16 st17">40</text>
+<text transform="matrix(1.0017 0 0 1 119.7861 113.1279)" class="st18 st16 st17">60</text>
+<text transform="matrix(1.0017 0 0 1 132.9307 113.0557)" class="st18 st16 st17">80</text>
+<text transform="matrix(1.0017 0 0 1 143.126 113.1367)" class="st18 st16 st17">100</text>
+<path class="st19" d="M163.2,106.2h89.3c0.3,0,0.4,0.1,0.4,0.4V129c0,0.3-0.1,0.4-0.4,0.4h-89.3c-0.3,0-0.4-0.1-0.4-0.4v-22.4
+	C162.7,106.4,163,106.2,163.2,106.2z"/>
+<rect x="164.8" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="176.9" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="189.6" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="201.7" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="213.9" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="226.1" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="238.3" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="250.5" y="108.5" class="st13" width="0.4" height="4.8"/>
+<rect x="164.8" y="114.4" class="st20" width="0.8" height="13"/>
+<rect x="250.1" y="114.4" class="st20" width="0.8" height="13"/>
+<g id="oil_x5F_presure">
+	<rect id="oil_x5F_presure_x5F_loader" x="165.6" y="114.4" class="st21" width="84.5" height="13"/>
+	<text transform="matrix(1 0 0 1 167.0693 126.0996)" class="st16 st22">ДАВЛЕНИЕ МАСЛА, кг/см</text>
+	<text transform="matrix(1 0 0 1 227.8886 124.5273)" class="st16 st23">2</text>
+	<text id="oil_x5F_presue_x5F_val" transform="matrix(1 0 0 1 167.5908 120.0684)" class="st16 st22">6</text>
+</g>
+<text transform="matrix(1 0 0 1 169.2861 112.8086)" class="st18 st16 st22">0</text>
+<text transform="matrix(1 0 0 1 182.2841 112.8086)" class="st18 st16 st22">1</text>
+<text transform="matrix(1 0 0 1 194.1132 112.8086)" class="st18 st16 st22">2</text>
+<text transform="matrix(1 0 0 1 206.3544 112.8086)" class="st18 st16 st22">3</text>
+<text transform="matrix(1 0 0 1 218.8525 112.8086)" class="st18 st16 st22">4</text>
+<text transform="matrix(1 0 0 1 230.7626 112.8086)" class="st18 st16 st22">5</text>
+<text transform="matrix(1 0 0 1 242.8867 112.8086)" class="st18 st16 st22">6</text>
 </svg>
