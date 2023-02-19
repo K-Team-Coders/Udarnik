@@ -55,10 +55,7 @@
   <path d="M70,118.7,53,97.5H28.9L12,118.7v9.9H70Z" transform="translate(0 -0.5)" style="fill: #677272"/>
   <path d="M6,1.5H254a4.951,4.951,0,0,1,5,5v126a4.951,4.951,0,0,1-5,5H6a4.951,4.951,0,0,1-5-5V6.5A5.015,5.015,0,0,1,6,1.5Z" transform="translate(0 -0.5)" style="fill: none;stroke: #ced7e7;stroke-width: 2px"/>
   <g id="PS4">
-    <path d="M87.8,39.1h19.5a.789.789,0,0,1,.8.8V54.4a.789.789,0,0,1-.8.8H87.8a.789.789,0,0,1-.8-.8V39.8A.713.713,0,0,1,87.8,39.1Z" transform="translate(0 -0.5)" :style="{
-                  fill: allData.colors[48],
-                  stroke: allData.colors[49]
-                }" stroke-width= "2px"/>
+    <path d="M87.8,39.1h19.5a.789.789,0,0,1,.8.8V54.4a.789.789,0,0,1-.8.8H87.8a.789.789,0,0,1-.8-.8V39.8A.713.713,0,0,1,87.8,39.1Z" transform="translate(0 -0.5)" :style="{fill: allData.colors[48], stroke: allData.colors[49]}" stroke-width= "2px"/>
     <rect x="87.8" y="39.6" width="19.1" height="14" style="fill: none"/>
     <text transform="translate(94.263 50.833)" style="isolation: isolate;font-size: 12px;font-family: ArialMT, Arial">4</text>
   </g>
@@ -167,10 +164,11 @@ import { mapActions, mapGetters } from 'vuex'
 export default {
   computed: mapGetters(['allData']),
   methods: mapActions(['GET_ALLDATA']),
-  async created () {
+  async created() {
     setInterval(() => {
       JSON.parse(JSON.stringify(this.GET_ALLDATA()))
-    }, 30000)
+      console.log(this.allData)
+    }, 10000)
   }
 }
 </script>
