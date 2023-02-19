@@ -2120,13 +2120,14 @@ import Headernd from '../components/Headernd.vue'
 import Links from '../components/Links.vue'
 export default {
   computed: mapGetters(['allData']),
-  methods: mapActions(['GET_ALLDATA']),
+  // methods: mapActions(['GET_ALLDATA']),
   components: { Headernd, Links },
-  async created () {
-    setInterval(() => {
-      JSON.parse(JSON.stringify(this.GET_ALLDATA()))
-    }, 30000)
-  }
+  // async created() {
+  //   setInterval(() => {
+  //     JSON.parse(JSON.stringify(this.GET_ALLDATA()))
+  //     console.log(this.allData)
+  //   }, 10000)
+  // }
 }
 </script>
 
