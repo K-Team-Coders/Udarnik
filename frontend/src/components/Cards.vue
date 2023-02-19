@@ -832,7 +832,7 @@
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[0], stroke: allData.colors[1] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -873,7 +873,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -961,7 +961,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
@@ -1049,7 +1049,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] }" stroke="#FF4B35"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
 	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -1135,11 +1135,11 @@
               
             </a>
                         <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
-<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+              >ПС2
+              <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[0], stroke: allData.colors[1] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -1180,7 +1180,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -1268,7 +1268,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
@@ -1356,7 +1356,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] }" stroke="#FF4B35"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
 	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -1439,11 +1439,82 @@
                   </tspan>
                 </text>
               </svg>
+            </a>
+
+            <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
+              >ПС3
+<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
+	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
+<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+	v-16C1,1.7,1.7,1,2.5,1z"/>
+<rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
+<text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
+<text transform="matrix(1 0 0 1 714.1 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
+<text transform="matrix(1 0 0 1 719.4 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
+<text transform="matrix(1 0 0 1 7.7645 15.101)" style="font-family:'ArialMT'; font-size:10px;">T</text>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="17.6" y="3.5" width="14" height="14"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M26.014,11.766
+			c-0.031-0.02-0.057-0.047-0.075-0.079c-0.018-0.032-0.027-0.069-0.027-0.105V5.689c0-0.348-0.138-0.682-0.384-0.928
+			c-0.246-0.246-0.58-0.384-0.928-0.384c-0.348,0-0.682,0.138-0.928,0.384c-0.246,0.246-0.384,0.58-0.384,0.928v5.893
+			c0,0.037-0.009,0.073-0.027,0.105c-0.018,0.032-0.043,0.059-0.074,0.079c-0.389,0.253-0.705,0.604-0.917,1.016
+			c-0.212,0.413-0.312,0.874-0.292,1.337c0.031,0.685,0.329,1.331,0.83,1.799c0.501,0.468,1.166,0.722,1.851,0.706
+			c0.686-0.016,1.338-0.299,1.817-0.789c0.479-0.49,0.748-1.149,0.749-1.834c0-0.444-0.11-0.881-0.322-1.271
+			C26.691,12.34,26.386,12.008,26.014,11.766L26.014,11.766z"/>
+		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M24.6,6.564v7.437"/>
+		<path d="M24.601,15.315c0.725,0,1.313-0.588,1.313-1.314c0-0.725-0.588-1.313-1.313-1.313s-1.313,0.588-1.313,1.313
+			C23.287,14.726,23.875,15.315,24.601,15.315z"/>
+	</g>
+</g>
+</svg>
+
+            </a>
+
+            <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
+              >ПС4
+<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
+	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
+<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+	v-16C1,1.7,1.7,1,2.5,1z"/>
+<rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
+<text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
+<text transform="matrix(1 0 0 1 714.1 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
+<text transform="matrix(1 0 0 1 719.4 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
+<text transform="matrix(1 0 0 1 7.7645 15.101)" style="font-family:'ArialMT'; font-size:10px;">T</text>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="17.6" y="3.5" width="14" height="14"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M26.014,11.766
+			c-0.031-0.02-0.057-0.047-0.075-0.079c-0.018-0.032-0.027-0.069-0.027-0.105V5.689c0-0.348-0.138-0.682-0.384-0.928
+			c-0.246-0.246-0.58-0.384-0.928-0.384c-0.348,0-0.682,0.138-0.928,0.384c-0.246,0.246-0.384,0.58-0.384,0.928v5.893
+			c0,0.037-0.009,0.073-0.027,0.105c-0.018,0.032-0.043,0.059-0.074,0.079c-0.389,0.253-0.705,0.604-0.917,1.016
+			c-0.212,0.413-0.312,0.874-0.292,1.337c0.031,0.685,0.329,1.331,0.83,1.799c0.501,0.468,1.166,0.722,1.851,0.706
+			c0.686-0.016,1.338-0.299,1.817-0.789c0.479-0.49,0.748-1.149,0.749-1.834c0-0.444-0.11-0.881-0.322-1.271
+			C26.691,12.34,26.386,12.008,26.014,11.766L26.014,11.766z"/>
+		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M24.6,6.564v7.437"/>
+		<path d="M24.601,15.315c0.725,0,1.313-0.588,1.313-1.314c0-0.725-0.588-1.313-1.313-1.313s-1.313,0.588-1.313,1.313
+			C23.287,14.726,23.875,15.315,24.601,15.315z"/>
+	</g>
+</g>
+</svg>
               
             </a>
 
             <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
+              >ПС5
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
@@ -1475,283 +1546,11 @@
 	</g>
 </g>
 </svg>
-              <svg
-                class=""
-                version="1.1"
-                id="Слой_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-                H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-                  c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-                  c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-                  c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-                  c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-                  c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-                  c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VG
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.5,8.5
-		c-0.5,0.5-0.8,1.3-0.8,2c0,0.7,0.3,1.4,0.8,2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.5,12.5
-		c0.5-0.5,0.8-1.3,0.8-2c0-0.7-0.3-1.4-0.8-2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.9,6.9
-		c-0.9,1-1.4,2.3-1.4,3.6c0,1.3,0.5,2.6,1.4,3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.1,14.1
-		c0.9-1,1.4-2.3,1.4-3.6c0-1.3-0.5-2.6-1.4-3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.9,15.5
-		c1.2-1.4,1.9-3.2,1.9-5c0-1.8-0.7-3.6-1.9-5"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.2,5.5
-		c-1.2,1.4-1.9,3.2-1.9,5c0,1.8,0.7,3.6,1.9,5"
-                  />
-                </g>
-                <rect
-                  x="3"
-                  y="8.1"
-                  style="fill:none;"
-                  width="14.6"
-                  height="8.3"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.1"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.4"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VO
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-		c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-		c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-		c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-		c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-		c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-		c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text transform="matrix(1 0 0 1 3.9275 14.1105)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                  <tspan
-                    x="5.74"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                </text>
-              </svg>
-              
+             
             </a>
 
             <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
+              >ПС6
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
@@ -1783,287 +1582,16 @@
 	</g>
 </g>
 </svg>
-              <svg
-                class=""
-                version="1.1"
-                id="Слой_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-                H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-                  c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-                  c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-                  c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-                  c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-                  c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-                  c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VG
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.5,8.5
-		c-0.5,0.5-0.8,1.3-0.8,2c0,0.7,0.3,1.4,0.8,2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.5,12.5
-		c0.5-0.5,0.8-1.3,0.8-2c0-0.7-0.3-1.4-0.8-2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.9,6.9
-		c-0.9,1-1.4,2.3-1.4,3.6c0,1.3,0.5,2.6,1.4,3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.1,14.1
-		c0.9-1,1.4-2.3,1.4-3.6c0-1.3-0.5-2.6-1.4-3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.9,15.5
-		c1.2-1.4,1.9-3.2,1.9-5c0-1.8-0.7-3.6-1.9-5"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.2,5.5
-		c-1.2,1.4-1.9,3.2-1.9,5c0,1.8,0.7,3.6,1.9,5"
-                  />
-                </g>
-                <rect
-                  x="3"
-                  y="8.1"
-                  style="fill:none;"
-                  width="14.6"
-                  height="8.3"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.1"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.4"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VO
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-		c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-		c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-		c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-		c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-		c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-		c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text transform="matrix(1 0 0 1 3.9275 14.1105)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                  <tspan
-                    x="5.74"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                </text>
-              </svg>
               
+
             </a>
 
             <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
-<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+              >ПС7
+              <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[0], stroke: allData.colors[1] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -2104,7 +1632,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -2192,7 +1720,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
@@ -2280,7 +1808,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] }" stroke="#FF4B35"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
 	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -2363,15 +1891,15 @@
                   </tspan>
                 </text>
               </svg>
-              
             </a>
 
             <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
+              >ПС8
+	 
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[0], stroke: allData.colors[1] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -2412,7 +1940,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] , stroke:allData.colors[5] }"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
                 H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -2500,7 +2028,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[6], stroke: allData.colors[7] }" 
                   d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"
                 />
@@ -2588,7 +2116,7 @@
                 xml:space="preserve"
               >
                 <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
+                :style="{ fill: allData.colors[4] }" stroke="#FF4B35"
                   d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
 	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
                 />
@@ -2671,11 +2199,10 @@
                   </tspan>
                 </text>
               </svg>
-              
             </a>
 
             <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
+              >ПС9
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
@@ -2707,1204 +2234,11 @@
 	</g>
 </g>
 </svg>
-              <svg
-                class=""
-                version="1.1"
-                id="Слой_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-                H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-                  c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-                  c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-                  c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-                  c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-                  c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-                  c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VG
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.5,8.5
-		c-0.5,0.5-0.8,1.3-0.8,2c0,0.7,0.3,1.4,0.8,2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.5,12.5
-		c0.5-0.5,0.8-1.3,0.8-2c0-0.7-0.3-1.4-0.8-2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.9,6.9
-		c-0.9,1-1.4,2.3-1.4,3.6c0,1.3,0.5,2.6,1.4,3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.1,14.1
-		c0.9-1,1.4-2.3,1.4-3.6c0-1.3-0.5-2.6-1.4-3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.9,15.5
-		c1.2-1.4,1.9-3.2,1.9-5c0-1.8-0.7-3.6-1.9-5"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.2,5.5
-		c-1.2,1.4-1.9,3.2-1.9,5c0,1.8,0.7,3.6,1.9,5"
-                  />
-                </g>
-                <rect
-                  x="3"
-                  y="8.1"
-                  style="fill:none;"
-                  width="14.6"
-                  height="8.3"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.1"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.4"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VO
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-		c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-		c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-		c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-		c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-		c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-		c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text transform="matrix(1 0 0 1 3.9275 14.1105)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                  <tspan
-                    x="5.74"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                </text>
-              </svg>
-              
+             
+
             </a>
 
-            <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
-<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
-	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"/>
-<rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
-<text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
-<text transform="matrix(1 0 0 1 714.1 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
-<text transform="matrix(1 0 0 1 719.4 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
-<text transform="matrix(1 0 0 1 7.7645 15.101)" style="font-family:'ArialMT'; font-size:10px;">T</text>
-<g>
-	<defs>
-		<rect id="SVGID_1_" x="17.6" y="3.5" width="14" height="14"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_2_);">
-		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M26.014,11.766
-			c-0.031-0.02-0.057-0.047-0.075-0.079c-0.018-0.032-0.027-0.069-0.027-0.105V5.689c0-0.348-0.138-0.682-0.384-0.928
-			c-0.246-0.246-0.58-0.384-0.928-0.384c-0.348,0-0.682,0.138-0.928,0.384c-0.246,0.246-0.384,0.58-0.384,0.928v5.893
-			c0,0.037-0.009,0.073-0.027,0.105c-0.018,0.032-0.043,0.059-0.074,0.079c-0.389,0.253-0.705,0.604-0.917,1.016
-			c-0.212,0.413-0.312,0.874-0.292,1.337c0.031,0.685,0.329,1.331,0.83,1.799c0.501,0.468,1.166,0.722,1.851,0.706
-			c0.686-0.016,1.338-0.299,1.817-0.789c0.479-0.49,0.748-1.149,0.749-1.834c0-0.444-0.11-0.881-0.322-1.271
-			C26.691,12.34,26.386,12.008,26.014,11.766L26.014,11.766z"/>
-		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M24.6,6.564v7.437"/>
-		<path d="M24.601,15.315c0.725,0,1.313-0.588,1.313-1.314c0-0.725-0.588-1.313-1.313-1.313s-1.313,0.588-1.313,1.313
-			C23.287,14.726,23.875,15.315,24.601,15.315z"/>
-	</g>
-</g>
-</svg>
-              <svg
-                class=""
-                version="1.1"
-                id="Слой_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-                H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-                  c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-                  c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-                  c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-                  c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-                  c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-                  c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VG
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.5,8.5
-		c-0.5,0.5-0.8,1.3-0.8,2c0,0.7,0.3,1.4,0.8,2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.5,12.5
-		c0.5-0.5,0.8-1.3,0.8-2c0-0.7-0.3-1.4-0.8-2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.9,6.9
-		c-0.9,1-1.4,2.3-1.4,3.6c0,1.3,0.5,2.6,1.4,3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.1,14.1
-		c0.9-1,1.4-2.3,1.4-3.6c0-1.3-0.5-2.6-1.4-3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.9,15.5
-		c1.2-1.4,1.9-3.2,1.9-5c0-1.8-0.7-3.6-1.9-5"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.2,5.5
-		c-1.2,1.4-1.9,3.2-1.9,5c0,1.8,0.7,3.6,1.9,5"
-                  />
-                </g>
-                <rect
-                  x="3"
-                  y="8.1"
-                  style="fill:none;"
-                  width="14.6"
-                  height="8.3"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.1"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.4"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VO
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-		c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-		c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-		c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-		c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-		c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-		c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text transform="matrix(1 0 0 1 3.9275 14.1105)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                  <tspan
-                    x="5.74"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                </text>
-              </svg>
-              
-            </a>
-
-            <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
-<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
-	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"/>
-<rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
-<text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
-<text transform="matrix(1 0 0 1 714.1 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
-<text transform="matrix(1 0 0 1 719.4 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
-<text transform="matrix(1 0 0 1 7.7645 15.101)" style="font-family:'ArialMT'; font-size:10px;">T</text>
-<g>
-	<defs>
-		<rect id="SVGID_1_" x="17.6" y="3.5" width="14" height="14"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_2_);">
-		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M26.014,11.766
-			c-0.031-0.02-0.057-0.047-0.075-0.079c-0.018-0.032-0.027-0.069-0.027-0.105V5.689c0-0.348-0.138-0.682-0.384-0.928
-			c-0.246-0.246-0.58-0.384-0.928-0.384c-0.348,0-0.682,0.138-0.928,0.384c-0.246,0.246-0.384,0.58-0.384,0.928v5.893
-			c0,0.037-0.009,0.073-0.027,0.105c-0.018,0.032-0.043,0.059-0.074,0.079c-0.389,0.253-0.705,0.604-0.917,1.016
-			c-0.212,0.413-0.312,0.874-0.292,1.337c0.031,0.685,0.329,1.331,0.83,1.799c0.501,0.468,1.166,0.722,1.851,0.706
-			c0.686-0.016,1.338-0.299,1.817-0.789c0.479-0.49,0.748-1.149,0.749-1.834c0-0.444-0.11-0.881-0.322-1.271
-			C26.691,12.34,26.386,12.008,26.014,11.766L26.014,11.766z"/>
-		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M24.6,6.564v7.437"/>
-		<path d="M24.601,15.315c0.725,0,1.313-0.588,1.313-1.314c0-0.725-0.588-1.313-1.313-1.313s-1.313,0.588-1.313,1.313
-			C23.287,14.726,23.875,15.315,24.601,15.315z"/>
-	</g>
-</g>
-</svg>
-              <svg
-                class=""
-                version="1.1"
-                id="Слой_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-                H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-                  c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-                  c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-                  c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-                  c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-                  c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-                  c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VG
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.5,8.5
-		c-0.5,0.5-0.8,1.3-0.8,2c0,0.7,0.3,1.4,0.8,2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.5,12.5
-		c0.5-0.5,0.8-1.3,0.8-2c0-0.7-0.3-1.4-0.8-2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.9,6.9
-		c-0.9,1-1.4,2.3-1.4,3.6c0,1.3,0.5,2.6,1.4,3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.1,14.1
-		c0.9-1,1.4-2.3,1.4-3.6c0-1.3-0.5-2.6-1.4-3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.9,15.5
-		c1.2-1.4,1.9-3.2,1.9-5c0-1.8-0.7-3.6-1.9-5"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.2,5.5
-		c-1.2,1.4-1.9,3.2-1.9,5c0,1.8,0.7,3.6,1.9,5"
-                  />
-                </g>
-                <rect
-                  x="3"
-                  y="8.1"
-                  style="fill:none;"
-                  width="14.6"
-                  height="8.3"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.1"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.4"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VO
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-		c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-		c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-		c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-		c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-		c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-		c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text transform="matrix(1 0 0 1 3.9275 14.1105)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                  <tspan
-                    x="5.74"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                </text>
-              </svg>
-              
-            </a>
-
-            <a href="#" class="flex bg-gray-100 mt-2 ml-8 mr-6 font-medium pl-4 items-center"
-              >ПС1
-<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
-	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"/>
-<rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
-<text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
-<text transform="matrix(1 0 0 1 714.1 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
-<text transform="matrix(1 0 0 1 719.4 384)" style="font-family:'ArialMT'; font-size:12px;">c</text>
-<text transform="matrix(1 0 0 1 7.7645 15.101)" style="font-family:'ArialMT'; font-size:10px;">T</text>
-<g>
-	<defs>
-		<rect id="SVGID_1_" x="17.6" y="3.5" width="14" height="14"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_2_);">
-		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M26.014,11.766
-			c-0.031-0.02-0.057-0.047-0.075-0.079c-0.018-0.032-0.027-0.069-0.027-0.105V5.689c0-0.348-0.138-0.682-0.384-0.928
-			c-0.246-0.246-0.58-0.384-0.928-0.384c-0.348,0-0.682,0.138-0.928,0.384c-0.246,0.246-0.384,0.58-0.384,0.928v5.893
-			c0,0.037-0.009,0.073-0.027,0.105c-0.018,0.032-0.043,0.059-0.074,0.079c-0.389,0.253-0.705,0.604-0.917,1.016
-			c-0.212,0.413-0.312,0.874-0.292,1.337c0.031,0.685,0.329,1.331,0.83,1.799c0.501,0.468,1.166,0.722,1.851,0.706
-			c0.686-0.016,1.338-0.299,1.817-0.789c0.479-0.49,0.748-1.149,0.749-1.834c0-0.444-0.11-0.881-0.322-1.271
-			C26.691,12.34,26.386,12.008,26.014,11.766L26.014,11.766z"/>
-		<path style="fill:none;stroke:#000000;stroke-width:1.0019;stroke-linecap:round;stroke-miterlimit:10;" d="M24.6,6.564v7.437"/>
-		<path d="M24.601,15.315c0.725,0,1.313-0.588,1.313-1.314c0-0.725-0.588-1.313-1.313-1.313s-1.313,0.588-1.313,1.313
-			C23.287,14.726,23.875,15.315,24.601,15.315z"/>
-	</g>
-</g>
-</svg>
-              <svg
-                class=""
-                version="1.1"
-                id="Слой_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-                H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-                  c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-                  c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-                  c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-                  c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-                  c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-                  c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VG
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
-	v-16C1,1.7,1.7,1,2.5,1z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.5,8.5
-		c-0.5,0.5-0.8,1.3-0.8,2c0,0.7,0.3,1.4,0.8,2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.5,12.5
-		c0.5-0.5,0.8-1.3,0.8-2c0-0.7-0.3-1.4-0.8-2"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.9,6.9
-		c-0.9,1-1.4,2.3-1.4,3.6c0,1.3,0.5,2.6,1.4,3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.1,14.1
-		c0.9-1,1.4-2.3,1.4-3.6c0-1.3-0.5-2.6-1.4-3.6"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.9,15.5
-		c1.2-1.4,1.9-3.2,1.9-5c0-1.8-0.7-3.6-1.9-5"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.2,5.5
-		c-1.2,1.4-1.9,3.2-1.9,5c0,1.8,0.7,3.6,1.9,5"
-                  />
-                </g>
-                <rect
-                  x="3"
-                  y="8.1"
-                  style="fill:none;"
-                  width="14.6"
-                  height="8.3"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.1"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.4"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text
-                  transform="matrix(1 0 0 1 3.9275 14.1105)"
-                  style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                >
-                  VO
-                </text>
-              </svg>
-              <svg
-                version="1.1"
-                id="Слой_1"
-                xmlns:x="&ns_extend;"
-                xmlns:i="&ns_ai;"
-                xmlns:graph="&ns_graphs;"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 38 21"
-                style="enable-background:new 0 0 38 21;"
-                xml:space="preserve"
-              >
-                <path
-                  style="fill:#FCDBCB;stroke:#FF4B35;"
-                  d="M2.498,1.024h33.004c0.828,0,1.5,0.672,1.5,1.5v16.004c0,0.828-0.672,1.5-1.5,1.5
-	H2.498c-0.828,0-1.5-0.672-1.5-1.5V2.524C0.998,1.695,1.67,1.024,2.498,1.024z"
-                />
-                <g>
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M23.507,8.532
-		c-0.488,0.549-0.757,1.258-0.757,1.993c0,0.735,0.27,1.444,0.757,1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M26.525,12.519
-		c0.488-0.549,0.757-1.259,0.757-1.993c0-0.735-0.27-1.444-0.757-1.993"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M21.913,6.939
-		c-0.909,0.973-1.415,2.254-1.415,3.586c0,1.331,0.506,2.613,1.415,3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M28.117,14.111
-		c0.909-0.973,1.415-2.254,1.415-3.586c0-1.331-0.506-2.613-1.415-3.586"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M29.876,15.525
-		c1.228-1.376,1.907-3.156,1.907-5.001c0-1.845-0.679-3.625-1.907-5.001"
-                  />
-                  <path
-                    style="fill:none;stroke:#E32112;stroke-width:1.0019;stroke-linecap:round;stroke-linejoin:round;"
-                    d="M20.154,5.523
-		c-1.228,1.376-1.907,3.157-1.907,5.001c0,1.845,0.679,3.625,1.907,5.001"
-                  />
-                </g>
-                <rect
-                  x="2.979"
-                  y="8.106"
-                  style="fill:none;"
-                  width="14.638"
-                  height="8.34"
-                />
-                <text transform="matrix(1 0 0 1 683 384)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    #1ed9
-                  </tspan>
-                  <tspan
-                    x="31.056"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                  <tspan
-                    x="36.359"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:12px;"
-                  >
-                    c
-                  </tspan>
-                </text>
-                <text transform="matrix(1 0 0 1 3.9275 14.1105)">
-                  <tspan
-                    x="0"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                  <tspan
-                    x="5.74"
-                    y="0"
-                    style="font-family:'MyriadPro-Regular'; font-size:10px;"
-                  >
-                    V
-                  </tspan>
-                </text>
-              </svg>
-              
-            </a>
+            
 
           </div>
         </div>
