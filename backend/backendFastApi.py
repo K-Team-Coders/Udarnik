@@ -381,6 +381,7 @@ def getGraph():
         'SM_Exgauster[2:35]'
     ]
 
+
     cur = connection.cursor()
     cur.execute("""SELECT DISTINCT "Kafka".date FROM "Kafka" ORDER BY "Kafka".date ASC""")
     data=cur.fetchall()
@@ -392,10 +393,11 @@ def getGraph():
     times.reverse()
 
     datasets = []
+    colors = ["#f54d3b", "#3e1eb0", "#63b524", "#d6d622", "#1ed9cc", "#f54d3b", "#3e1eb0", "#63b524", "#d6d622", "#1ed9cc", "#f54d3b", "#3e1eb0", "#63b524", "#d6d622", "#1ed9cc"]
 
+    index = 0
     for name in names[5:10]:
         value = []
-
         for time in times:
             cur.execute(f"""SELECT * FROM "Kafka" WHERE "Kafka".name = '{name}' AND "Kafka".date = '{time}' """)
             data=cur.fetchall()
@@ -405,9 +407,10 @@ def getGraph():
         datasets.append({
             "label": name,
             "data": value,
-            'backgroundColor':f"#63b524",
-            "borderColor": "#3e1eb0"
+            "borderColor": colors[index],
         })
+
+        index+=1
 
     return {
         "times": times,

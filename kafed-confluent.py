@@ -10,6 +10,7 @@ import time
 load_dotenv("./DB.env")
 IP = os.getenv('IP')
 USER = os.getenv('USER')
+PORT = os.getenv('PORT')
 PASSWORD = os.getenv('PASSWORD')
 
 def error_callback(err):
@@ -24,7 +25,7 @@ params = {
     'sasl.username': '9433_reader',
     'sasl.password': 'eUIpgWu0PWTJaTrjhjQD3.hoyhntiK',
     'group.id': 'MozhaykaTeam',
-    'auto.offset.reset': 'earliest',
+    'auto.offset.reset': 'latest',
     'enable.auto.commit': False,
     'error_cb': error_callback,
     'debug': 'all',
@@ -40,10 +41,10 @@ connection = psycopg2.connect(
     user=USER,
     password=PASSWORD,
     host=IP,
-    port='5432'
+    port=PORT
 )
 cursor = connection.cursor()
-index = 1
+index = 950000
 # Сбор данных с Kafka
 while True:
     msg = c.poll(timeout=3.0)

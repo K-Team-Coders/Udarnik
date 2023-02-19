@@ -1446,7 +1446,7 @@
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path  :style="{ fill: allData.colors[16], stroke: allData.colors[17]}" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -1482,7 +1482,7 @@
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[18], stroke: allData.colors[19]}" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -1518,7 +1518,7 @@
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path :style="{ fill: allData.colors[20], stroke: allData.colors[21] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -1554,7 +1554,7 @@
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path  :style="{ fill: allData.colors[22], stroke: allData.colors[23] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
@@ -2206,7 +2206,7 @@
 <svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 38 21"
 	 style="enable-background:new 0 0 38 21;" xml:space="preserve">
-<path style="fill:#FCDBCB;stroke:#FF4B35;" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
+<path  :style="{ 'fill': allData.colors[58], 'stroke': allData.colors[59] }" d="M2.5,1h33C36.3,1,37,1.7,37,2.5v16c0,0.8-0.7,1.5-1.5,1.5h-33C1.7,20,1,19.4,1,18.5
 	v-16C1,1.7,1.7,1,2.5,1z"/>
 <rect x="3" y="8.1" style="fill:none;" width="14.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 683 384)" style="font-family:'ArialMT'; font-size:12px;">#1ed9</text>
